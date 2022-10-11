@@ -6,7 +6,7 @@
 
 
 
-<p align="center"; fontsize="large">
+<p align="center";font-size: 3.4285714285714284em;>
 <a  href="Indice.md"> <big>INICIO</big></a>
 </p>
 
