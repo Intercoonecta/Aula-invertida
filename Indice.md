@@ -5,13 +5,13 @@
 |
 <strong><a href="Intro a R/R.html">R</a></strong>
 |
-<strong><a href="Intro a Python/Python.html">Python</a></strong>
+<strong><a href="Intro a Python/Python.md">Python</a></strong>
 |
-<strong><a href="Intro a Jupyter/Jupyter.html">Jupyter</a></strong>
+<strong><a href="Intro a Jupyter/Jupyter.md">Jupyter</a></strong>
 |
-<strong><a href="Intro a github/Github.html">Github</a></strong>
+<strong><a href="Intro a github/Github.md">Github</a></strong>
 |
-<strong><a href="enlaces.html">Enlaces</a></strong>
+<strong><a href="enlaces.md">Enlaces</a></strong>
 </p>
 
 <img     style="float: left;" src="OHWe.png" width="100"> 
@@ -27,7 +27,7 @@ Tutoriales de iniciación en lenguajes de programación open source, el entorno 
 
 ## Contenido
 
-    - [Introducción a R](Intro a R/R.md)
+- [Introducción a R](Intro a R/R.md)
     - [Introducción a Python](Intro a Python/Python.md)
     - [Introducción a Jupyter](Intro a Jupyter/Jupyter.md)
     - [Introducción a github](Intro a Github/Github.md)
