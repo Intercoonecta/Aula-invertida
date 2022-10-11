@@ -6,7 +6,7 @@
 
 
 <div style="margin: 0 auto; text-align: center">
-<a style="text-align: center;font-size: 40px" href="Indice.html"><big>**INICIO**</big></a>
+<a style="text-align: center;font-size: 40px" href="Indice.md"><big>**INICIO**</big></a>
 
 
 <img     style="float: left;" src="instituciones.png"width=85% height=25%> 
