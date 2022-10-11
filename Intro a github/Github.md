@@ -12,7 +12,7 @@
 <strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width="100">
+<img     style="float: left;" src="OHWe.png" width="100"> 
 
 # Introducción a Github
 **Autora**: Denise Fierro Arcos
