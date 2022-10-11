@@ -14,8 +14,8 @@
 <strong><a href="enlaces.html">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width=15% height=15%>
 
+![](OHWe.png | width=100)
     
     
 # OHWe: formación básica
