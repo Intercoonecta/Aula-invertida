@@ -1,5 +1,5 @@
 ---
-toc-depth: 4
+
 linkcolor: blue
 ---
 
