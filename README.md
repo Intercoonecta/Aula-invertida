@@ -4,8 +4,10 @@
 **Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierro Arcos, Emilio Mayorga**
 
 
-<a style="text-align: center;font-size: 40px" href="Indice.html">
 
+<div style="margin: 0 auto; text-align: center">
+<a style="text-align: center;font-size: 40px" href="Indice.html"><big>**INICIO**</big></a>
+</div>
 
 
 <img     style="float: left;" src="instituciones.png" width="500" height="150"> 
