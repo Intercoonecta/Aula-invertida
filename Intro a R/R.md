@@ -1,9 +1,3 @@
----
-toc: true
-toc-depth: 4
-linkcolor: blue
----
-
 <p align="left">
 <strong><a href="../Indice.html">Indice</a></strong>
 |
@@ -18,7 +12,7 @@ linkcolor: blue
 <strong><a href="../enlaces.html">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width=15% height=15%>
+<img     style="float: left;" src="OHWe.png" width="100"> 
 
 # Introducción a R
 
