@@ -7,7 +7,7 @@
 
 [INICIO](Indice.md)
 
-<a style="text-align: center;font-size: large" href="Indice.html">
+<a style="text-align: center;font-size: "large"" href="Indice.html">
 
 
 
