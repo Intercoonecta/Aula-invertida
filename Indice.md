@@ -26,7 +26,8 @@ Tutoriales de iniciación en lenguajes de programación open source, el entorno 
 
 
 ## Contenido
-- [Introducción a R](Intro a R/R.md)
+- Código en R y python de los gráficos más comunes [Introducción a R](Intro a R/R.md)
+- [Introducción a R](Intro a R/R.md) 
 - [Introducción a R](Intro a R/R.md) 
 - [Introducción a Python](Intro a Python/Python.md) 
 - [Introducción a Jupyter](Intro a Jupyter/Jupyter.md) 
