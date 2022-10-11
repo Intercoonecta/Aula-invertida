@@ -1,9 +1,9 @@
 
 
 <p align="left">
-<strong><a href="Indice.html">Indice</a></strong>
+<strong><a href="Indice.md">Indice</a></strong>
 |
-<strong><a href="Intro a R/R.html">R</a></strong>
+<strong><a href="Intro a R/R.md">R</a></strong>
 |
 <strong><a href="Intro a Python/Python.md">Python</a></strong>
 |
@@ -26,8 +26,7 @@ Tutoriales de iniciación en lenguajes de programación open source, el entorno 
 
 
 ## Contenido
-
-- [Introducción a R](Intro a R/R.md)
-    - [Introducción a Python](Intro a Python/Python.md)
-    - [Introducción a Jupyter](Intro a Jupyter/Jupyter.md)
-    - [Introducción a github](Intro a Github/Github.md)
+- [Introducción a R](Intro a R/R.md) 
+- [Introducción a Python](Intro a Python/Python.md) 
+- [Introducción a Jupyter](Intro a Jupyter/Jupyter.md) 
+- [Introducción a github](Intro a Github/Github.md) 
