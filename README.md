@@ -6,7 +6,7 @@
 
 
 
-<a style="text-align: center;font-size: 40px" href="Indice.html">INICIO</a>
+<a style="text-align: center;font-size: 500" href="Indice.md">INICIO</a>
 
 
 
