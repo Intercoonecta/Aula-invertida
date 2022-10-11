@@ -26,7 +26,7 @@ Tutoriales de iniciación en lenguajes de programación open source, el entorno 
 
 
 ## Contenido
-- [Beautiful plotting in R]("Intro a R/R.md") 
+- [Introducción a R](["Intro a R/R.md"](https://www.cedricscherer.com/2019/08/05/a-ggplot2-tutorial-for-beautiful-plotting-in-r/)) 
 - [Introducción a R](Intro a R/R.md) 
 - [Introducción a R](Intro a R/R.md) 
 - [Introducción a Python](Intro a Python/Python.md) 
