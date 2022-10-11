@@ -6,9 +6,7 @@
 
 # [INICIO](Indice.md)
 
-%<p align="center">
-  %<a style="font-size: 300px" href="Indice.md">INICIO</a>
-%</p>
+
 
 
 
