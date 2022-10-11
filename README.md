@@ -7,9 +7,10 @@
 
 <div style="margin: 0 auto; text-align: center">
 <a style="text-align: center;font-size: 40px" href="Indice.md"><big>**INICIO**</big></a>
+</div>
 
 
-<img     style="float: left;" src="instituciones.png"width=85% height=25%> 
- </div>
+<img     style="float: left;" src="instituciones.png" width="600" height="600"> 
+ 
 
 <img     style="float: right;" src="AECID.png"width=100% height=25%>
