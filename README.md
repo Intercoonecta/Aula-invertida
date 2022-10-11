@@ -8,7 +8,7 @@
 [INICIO](Indice.md)
 
 <a style="text-align: center;font-size: 500" href="Indice.md">INICIO</a>
-
+<h1 align="center">[INICIO](Indice.md)</h1>
 
 
 
