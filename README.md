@@ -6,7 +6,7 @@
 
 
 <div style="margin: 0 auto; text-align: center">
-<a style="text-align: center;font-size: 40px" href="Indice.html"><big>**INICIO**</big></a>
+<a style="text-align: center;font-size: 40px" href="Indice.html"><h1>INICIO</h1></a>
 </div>
 
 
