@@ -1,9 +1,3 @@
----
-toc: true
-toc-depth: 4
-linkcolor: blue
----
-
 <p align="left">
 <strong><a href="../Indice.md">Indice</a></strong>
 |
