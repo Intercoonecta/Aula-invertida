@@ -5,12 +5,11 @@
 
 
 
-<div style="margin: 0 auto; text-align: center">
-<a style="text-align: center;font-size: 20" href="Indice.md"><big>**INICIO**</big></a>
-</div>
+<p align="center">
+  # INICIO
+</p>
 
 
-
-<img     style="float: left;" src="instituciones.png" width="600" height="100"> 
+<img     style="float: left;" src="instituciones.png" width="500" height="150"> 
 
 <img     style="float: right;" src="AECID.png" width="600" height="50">
