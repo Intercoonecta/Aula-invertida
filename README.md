@@ -5,9 +5,8 @@
 
 
 
-[INICIO](Indice.md)
 
-<p align="center">
+<p align="center" fontsize="large">
 <a  href="Indice.md"> <big>INICIO</big></a>
 </p>
 
