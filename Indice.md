@@ -15,7 +15,7 @@
 </p>
 
 
-![](OHWe.png | width=100)
+![](OHWe.png | width="100")
     
     
 # OHWe: formación básica
