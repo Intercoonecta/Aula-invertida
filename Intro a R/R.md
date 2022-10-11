@@ -1,15 +1,15 @@
 <p align="left">
-<strong><a href="../Indice.html">Indice</a></strong>
+<strong><a href="../Indice.md">Indice</a></strong>
 |
-<strong><a href="../Intro a R/R.html">R</a></strong>
+<strong><a href="../Intro a R/R.md">R</a></strong>
 |
-<strong><a href="../Intro a Python/Python.html">Python</a></strong>
+<strong><a href="../Intro a Python/Python.md">Python</a></strong>
 |
-<strong><a href="../Intro a Jupyter/Jupyter.html">Jupyter</a></strong>
+<strong><a href="../Intro a Jupyter/Jupyter.md">Jupyter</a></strong>
 |
-<strong><a href="../Intro a github/Github.html">Github</a></strong>
+<strong><a href="../Intro a github/Github.md">Github</a></strong>
 |
-<strong><a href="../enlaces.html">Enlaces</a></strong>
+<strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
 
 <img     style="float: left;" src="OHWe.png" width="100"> 
@@ -23,7 +23,7 @@ Tutorial de reforzamiento de R, en español
 
 ## Contenido
 
-- [Notas](IntroduccionaR.html)
+- [Notas](IntroduccionaR.md)
 - [Script de R](cursoR.rnw)
 - Datos:
     - [Datos meteorologicos](cibmeteo.txt)
