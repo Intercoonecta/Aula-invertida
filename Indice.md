@@ -1,7 +1,4 @@
----
 
-linkcolor: blue
----
 
 <p align="left">
 <strong><a href="Indice.html">Indice</a></strong>
