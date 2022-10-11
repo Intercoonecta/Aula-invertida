@@ -10,7 +10,7 @@
 </div>
 
 
-<img     style="float: left;" src="instituciones.png" width="600" height="600"> 
+<img     style="float: left;" src="instituciones.png" width="600" height="200"> 
  
 
-<img     style="float: right;" src="AECID.png"width=100% height=25%>
+<img     style="float: right;" src="AECID.png" width="600" height="100">
