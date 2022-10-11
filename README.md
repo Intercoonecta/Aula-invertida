@@ -4,11 +4,11 @@
 **Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierro Arcos, Emilio Mayorga**
 
 
+# [INICIO](Indice.md)
 
-
-<p align="center">
-  <a style="font-size: 300px" href="Indice.md">INICIO</a>
-</p>
+%<p align="center">
+  %<a style="font-size: 300px" href="Indice.md">INICIO</a>
+%</p>
 
 
 
