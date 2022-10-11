@@ -7,10 +7,9 @@
 
 [INICIO](Indice.md)
 
-<div style="margin: 0 auto; text-align: center">
-<a  href="Indice.md">
-<big>*NICIO</big></a>
-</div>
+<p align="center">
+<a  href="Indice.md"> <big>INICIO</big></a>
+</p>
 
 
 
