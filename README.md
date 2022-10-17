@@ -12,4 +12,4 @@
 
 <img     style="float: left;" src="instituciones.png" width="500" height="150"> 
 
-<img     style="float: right;" src="AECID.png" width="600" height="50">
+<img     style="float: right;" src="EMB GUATEMALA + AECID + CF LA ANTIGUA-01.png" width="600" height="50">
