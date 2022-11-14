@@ -25,7 +25,7 @@ Tutorial de Python, en español
 ## Contenido
 
 - [Presentación (pdf)](Porque_Python.pdf)
-- [Instalación](instalación_Python.pdf)
+- [Instalación (pdf)](instalación_Python.pdf)
 - Notebooks
     (Nota: si no sabes cómo usarlos, estudia el material del apartado de Jupyter)
   - [Introducción a Python](intro_to_python_ohw2022.ipynb)
