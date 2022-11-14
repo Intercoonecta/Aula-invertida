@@ -22,18 +22,17 @@
 - código y explicación de los tipos de gráficos [r-charts](https://r-charts.com/es/)
 
 ## Python
-
+- [Documentación de Python en español](https://docs.python.org/es/3/tutorial/)
 ## Jupyter
 - [Tutorial de Python con Jupyter Notebook](http://facundoq.github.io/courses/images/res/02_python.html). Repasa Python en el contexto de un cuaderno Jupyter.
 - Para una breve introducción a cuadernos Jupyter (aunque un poco vieja), consulta [“Introducción a Jupyter Notebooks”](https://datacarpentry.org/python-ecology-lesson-es/jupyter_notebooks/index.html), de [The Carpentries](https://carpentries.org).
 - Para más información sobre el uso de la **terminal** (*shell*) en macOS y Linux, te recomendamos el tutorial [La Terminal de Unix](https://swcarpentry.github.io/shell-novice-es/), de [The Carpentries](https://carpentries.org). La terminal PowerShell en Windows se comporta de manera similar.
 - Parte de este contenido está basado en el cuaderno `getting-started-guide_-_UW-JupyterHub-for-teaching.ipynb` del contenido de ["JupyterHub for Teaching" de la oficina IT, Universidad de Washington](https://itconnect.uw.edu/tools-services-support/teaching-learning/jupyterhub-for-teaching/quickstart-tutorial/).
 ## CONDA
-- - [Esta página](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) contiene instrucciones detalladas de instalación de Miniconda.
 - [Este excelente tutorial](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/) de [The Carpentries](https://carpentries.org) contiene información aún más extensa sobre conda.
 - [Breve reseña](https://foundations.projectpythia.org/foundations/conda.html) sobre el uso de conda para gestionar entornos de Python, de [Project Pythia](https://projectpythia.org/).
 ## Github
-
+- [Github desde cero en español (youtube)] (https://www.youtube.com/watch?v=PW_A-lOpVV0)
 ## En inglés
 - Código en R y python de los gráficos más comunes [Data-to-viz](https://www.data-to-viz.com/)
 - 'Data visualization : A practical introduction' de Kieran Healy' en R [socviz](https://socviz.co) 
