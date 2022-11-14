@@ -46,9 +46,12 @@
 - [(YouTube) Jupyter Notebook en 20 minutos (Python) - Leonardo Kuffo](https://www.youtube.com/watch?v=6Vr9ZUntCyE)
 ## CONDA
 - [Este excelente tutorial](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/) de [The Carpentries](https://carpentries.org) contiene información aún más extensa sobre conda.
+
 - [Breve reseña](https://foundations.projectpythia.org/foundations/conda.html) sobre el uso de conda para gestionar entornos de Python, de [Project Pythia](https://projectpythia.org/).
+
 ## Github
 - [Github desde cero en español (youtube)](https://www.youtube.com/watch?v=PW_A-lOpVV0)
+
 ## En inglés
 - Código en R y python de los gráficos más comunes [Data-to-viz](https://www.data-to-viz.com/)
 - 'Data visualization : A practical introduction' de Kieran Healy' en R [socviz](https://socviz.co) 
