@@ -22,13 +22,14 @@
 - código y explicación de los tipos de gráficos [r-charts](https://r-charts.com/es/)
 
 ##  Instalación Python
-- [Video tutorial: ¿Cómo instalar Anaconda? - YouTube](https://www.youtube.com/watch?v=z4oJh-ZCB7U). Marzo 2018 (pero selecciona Py 2.7! Por otro lado, es corto y util). Para Windows
+- [​Video tutorial: ¿Cómo instalar Anaconda? - YouTube](https://www.youtube.com/watch?v=z4oJh-ZCB7U). Marzo 2018 (pero selecciona Py 2.7! Por otro lado, es corto y util). Para Windows
 - [Ambientes Virtuales e instalación de paquetes en Anaconda - YouTube](https://www.youtube.com/watch?v=w0griS9S6rc). Enero 2020. 
 - [Como Instalar Anaconda Jupyter-Notebook y entornos de desarrollo virtual. virtualenv - YouTube](https://www.youtube.com/watch?v=2-kJ8Ge96jY). Julio 2019
 - [Cómo instalar Python Anaconda | Aprende Machine Learning](https://www.aprendemachinelearning.com/instalar-ambiente-de-desarrollo-python-anaconda-para-aprendizaje-automatico/). Marzo 2018
 - [Manual Jupyter Spanish](https://usermanual.wiki/Document/ManualJupyterSpanish.540297952). 
 - [Entornos de desarrollo virtuales con Python 3](https://openwebinars.net/blog/entornos-de-desarrollo-virtuales-con-python3/). Marzo 2017. Describe el rol y funcionamiento de entornos virtuales, aunque no abarca `conda` en si.
 - [Manual de uso de jupyter notebook para aplicaciones docentes (pdf)](https://usermanual.wiki/Document/ManualJupyterSpanish.540297952). 2018
+
 ## Python
 - [Documentación de Python en español](https://docs.python.org/es/3/tutorial/)
 - [Quiero aprender Python - Argentina en Python](https://argentinaenpython.com/quiero-aprender-python/)
@@ -44,9 +45,10 @@
 - [Jupyter Notebook: documentos web para análisis de datos, código en vivo y mucho más - IONOS](https://www.ionos.es/digitalguide/paginas-web/desarrollo-web/jupyter-notebook/)
 - [(YouTube) Cómo usar JUPYTER NOTEBOOK - qué es JUPYTERLAB #03 [Curso Python Data Science Español] - Rafa Gonzalez Gouveia](https://www.youtube.com/watch?v=CwbMaSkKDZg)
 - [(YouTube) Jupyter Notebook en 20 minutos (Python) - Leonardo Kuffo](https://www.youtube.com/watch?v=6Vr9ZUntCyE)
-## CONDA
-- [Este excelente tutorial](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/) de [The Carpentries](https://carpentries.org) contiene información aún más extensa sobre conda.
 
+## CONDA
+- [Esta página](https://conda.io/projects/conda/en/latest/user-guide/install/index.html) contiene instrucciones detalladas de instalación de Miniconda.
+- [Este excelente tutorial](https://carpentries-incubator.github.io/introduction-to-conda-for-data-scientists/) de [The Carpentries](https://carpentries.org) contiene información aún más extensa sobre conda.
 - [Breve reseña](https://foundations.projectpythia.org/foundations/conda.html) sobre el uso de conda para gestionar entornos de Python, de [Project Pythia](https://projectpythia.org/).
 
 ## Github
