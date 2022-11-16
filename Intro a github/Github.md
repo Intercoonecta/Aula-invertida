@@ -27,7 +27,7 @@ Tutorial de iniciación a Github en español
 4. [Rastreando Cambios](04-cambios.md)  Registro de cambios, status del repositorio, notas de cambios 
 5. [Explorando el Historial](05-historial.md) Versiones anteriores y recuperación de las mismas. 
 6. [Ignorando archivos](06-ignorar.md)  Selección de  archivos a ignorar durante el rastreo de Git. 
-7. [Repositorios remotos en GitHub](07-github remoto.md)  Compartiendo cambios con otros en la web. 
+7. [Repositorios remotos en GitHub](07-github%20remoto.md)  Compartiendo cambios con otros en la web. 
 
 
 ## Vídeo
