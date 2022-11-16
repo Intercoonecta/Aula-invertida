@@ -21,13 +21,13 @@ Tutorial de iniciación a Github en español
 
 
 ## Lecciones
-1. [Control Automatizado de Versiones](01-basico.html) ¿Qué es el control de versiones y por qué se deberá usar? 
-2. [Configurando Git](02-configuración.html)  Preparando Git
-3. [Creando un repositorio](03-repositorio nuevo.html) Almacenaje de la información en Git 
-4. [Rastreando Cambios](04-cambios.html)  Registro de cambios, status del repositorio, notas de cambios 
-5. [Explorando el Historial](05-historial.html) Versiones anteriores y recuperación de las mismas. 
-6. [Ignorando archivos](06-ignorar.html)  Selección de  archivos a ignorar durante el rastreo de Git. 
-7. [Repositorios remotos en GitHub](07-github remoto.html)  Compartiendo cambios con otros en la web. 
+1. [Control Automatizado de Versiones](01-basico.md) ¿Qué es el control de versiones y por qué se deberá usar? 
+2. [Configurando Git](02-configuración.md)  Preparando Git
+3. [Creando un repositorio](03-repositorio nuevo.md) Almacenaje de la información en Git 
+4. [Rastreando Cambios](04-cambios.md)  Registro de cambios, status del repositorio, notas de cambios 
+5. [Explorando el Historial](05-historial.md) Versiones anteriores y recuperación de las mismas. 
+6. [Ignorando archivos](06-ignorar.md)  Selección de  archivos a ignorar durante el rastreo de Git. 
+7. [Repositorios remotos en GitHub](07-github remoto.md)  Compartiendo cambios con otros en la web. 
 
 
 ## Vídeo
@@ -35,8 +35,8 @@ Tutorial de iniciación a Github en español
 
 ## Enlaces 
 - [Curso de carpentry (en español)](https://swcarpentry.github.io/git-novice-es/)
-- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git.html) 
-- [Crear una cuenta de GitHub (en inglés)](https://oceanhackweek.github.io/resources/prep/github.html).
+- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git.md) 
+- [Crear una cuenta de GitHub (en inglés)](https://oceanhackweek.github.io/resources/prep/github.md).
 
 
 
