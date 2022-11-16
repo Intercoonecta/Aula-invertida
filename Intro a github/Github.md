@@ -23,7 +23,7 @@ Tutorial de iniciación a Github en español
 ## Lecciones
 1. [Control Automatizado de Versiones](01-basico.md) ¿Qué es el control de versiones y por qué se deberá usar? 
 2. [Configurando Git](02-configuración.md)  Preparando Git
-3. [Creando un repositorio](03-repositorio nuevo.md) Almacenaje de la información en Git 
+3. [Creando un repositorio](03-repositorio nuevo.md). Almacenaje de la información en Git 
 4. [Rastreando Cambios](04-cambios.md)  Registro de cambios, status del repositorio, notas de cambios 
 5. [Explorando el Historial](05-historial.md) Versiones anteriores y recuperación de las mismas. 
 6. [Ignorando archivos](06-ignorar.md)  Selección de  archivos a ignorar durante el rastreo de Git. 
