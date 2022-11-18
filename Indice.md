@@ -26,7 +26,7 @@ Tutoriales de iniciación en lenguajes de programación open source, el entorno 
 
 
 ## Contenido
-- [Introducción a R](Intro&20a%20R/R.md)
+- [Introducción a R](Intro%20a%20R/R.md)
 - [Introducción a Python](Intro%20a%20Python/Python.md) 
 - [Introducción a Jupyter](Intro%20a%20Jupyter/Jupyter.md) 
 - [Introducción a github](Intro%20a%20github/Github.md) 
