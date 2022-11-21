@@ -260,7 +260,7 @@ $ git checkout -f master mars.txt
 Arriba usamos
 
 ~~~
-> $ git checkout f22b25e mars.txt
+$ git checkout f22b25e mars.txt
 ~~~
  
 
@@ -299,13 +299,13 @@ Jennifer ha realizado cambios en el **script**  de Python en el que ha estado tr
 
 Por suerte, ¡Ella ha estado haciendo un seguimiento de las versiones de su proyecto usando Git! ¿Cuáles comandos  le permitirán recuperar la última versión estable de su **script**  Python llamado  "data_cruncher.py"?
 
-1. "$ git checkout HEAD"
+1. `$ git checkout HEAD`
 
-2. "$ git checkout HEAD data_cruncher.py"
+2. `$ git checkout HEAD data_cruncher.py`
 
-3. "$ git checkout HEAD~1 data_cruncher.py"
+3. `$ git checkout HEAD~1 data_cruncher.py`
 
-4. "$ git checkout <unique ID of last commit> data_cruncher.py"
+4. `$ git checkout <unique ID of last commit> data_cruncher.py`
 
 5.    Ambos 2 y 4
  
@@ -319,7 +319,7 @@ Jennifer está colaborando en su **script** de Python con sus colegas y se da cu
 
 2. Copia el ID (los primeros caracteres del ID, por ejemplo 0b1d055).
 
-3. "git revert [commit ID]"
+3. `git revert [commit ID]`
 
 4. Escriba el nuevo mensaje del **commit**.
 
@@ -330,14 +330,14 @@ Jennifer está colaborando en su **script** de Python con sus colegas y se da cu
 
 ¿Cuál es el **output** de cat venus.txt al final de este conjunto de comandos?
 
-~~~
-> $ cd planets
-> $ nano venus.txt #captura el siguiente texto: Venus is beautiful and full of love
-> $ git add venus.txt
-> $ nano venus.txt #agrega el siguiente texto: Venus is too hot to be suitable as a base
-> $ git commit -m "Comment on Venus as an unsuitable base"
-> $ git checkout HEAD venus.txt
-> $ cat venus.txt #esto imprimirá el contenido de venus.txt en la pantalla
+~~~bash
+$ cd planets
+$ nano venus.txt #captura el siguiente texto: Venus is beautiful and full of love
+$ git add venus.txt
+$ nano venus.txt #agrega el siguiente texto: Venus is too hot to be suitable as a base
+$ git commit -m "Comment on Venus as an unsuitable base"
+$ git checkout HEAD venus.txt
+$ cat venus.txt #esto imprimirá el contenido de venus.txt en la pantalla
 ~~~
  
 
@@ -374,43 +374,43 @@ Jennifer está colaborando en su **script** de Python con sus colegas y se da cu
 
 Vamos línea por línea
 ~~~
-> > $ cd planets
+$ cd planets
 ~~~
   
 Entra al directorio 'planets'
 
 ~~~
-> > $ nano venus.txt #agrega el siguiente texto: Venus is beautiful and full of love
+$ nano venus.txt #agrega el siguiente texto: Venus is beautiful and full of love
 ~~~
   
 Creamos un nuevo archivo y escribimos una oración, pero el archivo no es rastreado por git.
 
 ~~~
-> > $ git add venus.txt
+$ git add venus.txt
 ~~~
   
 Ahora el archivo está en escena. Los cambios que se han realizado en el archivo hasta ahora se confirmarán en el siguiente **commit**.
 
 ~~~
-> > $ nano venus.txt #agrega el siguiente texto: Venus is too hot to be suitable as a base
+$ nano venus.txt #agrega el siguiente texto: Venus is too hot to be suitable as a base
 ~~~
   
 El archivo ha sido modificado. Los nuevos cambios no se realizan porque no hemos agregado el archivo.
 
 ~~~
-> > $ git commit -m "Comment on Venus as an unsuitable base"
+$ git commit -m "Comment on Venus as an unsuitable base"
 ~~~
   
 Los cambios que se incluyeron (Venus is beautiful and full of love) se han confirmado. Los cambios que no se realizaron (Venus is too hot to be suitable as a base) no. Nuestra copia de trabajo local es diferente a la copia en nuestro repositorio local.
 
 ~~~
-> > $ git checkout HEAD venus.txt
+$ git checkout HEAD venus.txt
 ~~~
   
 Con el **checkout**, descartamos los cambios en el directorio de trabajo para que nuestra copia local sea exactamente la misma que nuestra HEAD, el más reciente **commit**.
 
 ~~~
-> > $ cat venus.txt #esto imprimirá el contenido de venus.txt a la pantalla
+$ cat venus.txt #esto imprimirá el contenido de venus.txt a la pantalla
 ~~~
   
 Si imprimimos venus.txt obtendremos la respuesta 2.
@@ -439,14 +439,14 @@ Imagina que el proyecto "planets" tiene más de 50 archivos. Deseas encontrar un
 Recuerda que el comando "git diff" nos permite explorar un archivo específico, por ejemplo "git diff mars.txt". Podemos aplicar una idea similar aquí.
 
 ~~~
-> $ git log mars.txt
+$ git log mars.txt
 ~~~
  
 Desafortunadamente, algunos de estos mensajes en los **commits** son muy ambiguos, por ejemplo "update files". ¿Cómo puedes buscar a través de estos archivos?
 Tanto "git diff" como "git log" son muy útiles y resumen una parte diferente del **history** para ti. ¿Es posible combinar ambos? Vamos a intentar lo siguiente:
 
 ~~~
-> $ git log --patch mars.txt
+$ git log --patch mars.txt
 ~~~
  
 
@@ -455,7 +455,7 @@ Deberías obtener una larga lista de output, y deberías poder ver tanto los dos
 Pregunta: ¿Qué hace el siguiente comando?
 
 ~~~
-> $ git log --patch HEAD~3 *.txt
+$ git log --patch HEAD~3 *.txt
 ~~~
  
  

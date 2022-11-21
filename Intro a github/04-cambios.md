@@ -22,14 +22,14 @@
 Primero asegúrate que estamos aún en el directorio correcto.
 Deberías estar en el directorio "planets".
 
-~~~
+~~~bash
 $ pwd
 ~~~
 
 
 Si aún estás en "moons" navega de regreso a "planets"
 
-~~~
+~~~bash
 $ cd ..
 ~~~
 
@@ -432,7 +432,7 @@ Cuando el **output** de "git log" es demasiado largo para caber en tu pantalla, 
 Para evitar que "git log" cubra toda la pantalla de tu terminal, puedes limitar el  número de **commits** que Git lista usando "-N", donde "N" es el número de **commits** que quieres ver. Por ejemplo, si sólo quieres información de el último **commit**, puedes usar:
 
 ~~~
-> $ git log -1
+$ git log -1
 ~~~
 
 
@@ -448,7 +448,7 @@ Para evitar que "git log" cubra toda la pantalla de tu terminal, puedes limitar 
 Puedes reducir la cantidad de información usando la opción "--oneline":
 
 ~~~
-> $ git log --oneline
+$ git log --oneline
 ~~~
 > {: .language-bash}
 ~~~
@@ -462,7 +462,7 @@ Puedes reducir la cantidad de información usando la opción "--oneline":
 También puedes combinar las opciones "--oneline" con otras. Una combinación útil es:
 
 ~~~
-> $ git log --oneline --graph --all --decorate
+$ git log --oneline --graph --all --decorate
 ~~~
 
 ~~~
@@ -477,10 +477,10 @@ También puedes combinar las opciones "--oneline" con otras. Una combinación ú
 Dos hechos importantes que deberías saber acerca de directorios en Git.1. Git no rastrea directorios por sí mismos, sólo los archivos dentro de ellos. Inténtalo tú mismo:
 
 ~~~
-> $ mkdir directory
-> $ git status
-> $ git add directory
-> $ git status
+$ mkdir directory
+$ git status
+$ git add directory
+$ git status
 ~~~
 
 
@@ -515,15 +515,15 @@ La respuesta 1 no es suficientemente descriptiva, y la respuesta 2 es demasiado 
 
 ¿Cuál comando(s) de abajo debería guardar los cambios de "myfile.txt" a mi repositorio local Git?
 
-1. "$ git commit -m "my recent changes""
+1. `$ git commit -m "my recent changes"`
 
-2. "$ git init myfile.txt"
-    "$ git commit -m "my recent changes""
+2. `$ git init myfile.txt`   
+   `$ git commit -m "my recent changes"`
 
-3. "$ git add myfile.txt"
-    "$ git commit -m "my recent changes""
+3. `$ git add myfile.txt`   
+   `$ git commit -m "my recent changes"`
 
-4. "$ git commit -m myfile.txt "my recent changes""
+4. `$ git commit -m myfile.txt "my recent changes"`
 
 ## Solución
 
@@ -545,8 +545,8 @@ a los que quieras hacer **commit**, como una sóla instantánea.
 
 Primero haremos nuestros cambios a los archivos "mars.txt" y "venus.txt":
 ~~~
-> > $ nano mars.txt
-> > $ cat mars.txt
+$ nano mars.txt
+$ cat mars.txt
 ~~~
 
 ~~~
@@ -554,9 +554,9 @@ Primero haremos nuestros cambios a los archivos "mars.txt" y "venus.txt":
 ~~~
 
 
-~~~
-> > $ nano venus.txt
-> > $ cat venus.txt
+~~~bash
+$ nano venus.txt
+$ cat venus.txt
 ~~~
 
 
@@ -568,18 +568,18 @@ Primero haremos nuestros cambios a los archivos "mars.txt" y "venus.txt":
 Ahora puedes agregar ambos archivos al **staging area**. Podemos hacer esto en una sóla línea:
 
 ~~~
-> > $ git add mars.txt venus.txt
+$ git add mars.txt venus.txt
 ~~~
 
 O con varios comandos:
 ~~~
-> > $ git add mars.txt
-> > $ git add venus.txt
+$ git add mars.txt
+$ git add venus.txt
 ~~~
 
 Ahora los archivos están listos para hacer **commit**. Puedes verificar esto usando "git status". Si estás lista para hacer **commit** usa:
 ~~~
-> > $ git commit -m "Write plans to start a base on Venus"
+$ git commit -m "Write plans to start a base on Venus"
 ~~~
 
 ~~~
@@ -601,36 +601,36 @@ Ahora los archivos están listos para hacer **commit**. Puedes verificar esto us
 
 Si es necesario, sal de la carpeta "planets":
 
-~~~
-> > $ cd ..
+~~~bash
+$ cd ..
 ~~~
 
 Crea una nueva carpeta llamada "bio" y 'navega' a ella:
 
-~~~
-> > $ mkdir bio
-> > $ cd bio
+~~~bash
+$ mkdir bio
+$ cd bio
 ~~~
 
 Inicia git:
 
 ~~~
-> > $ git init
+$ git init
 ~~~
 
 
 Crea tu archivo de biografía "me.txt" usando "nano" u otro editor de texto. Una vez hecho, agrega y haz **commit** de tu cambio al repositorio:
 
 ~~~
-> > $ git add me.txt
-> > $ git commit -m'Adding biography file'
+$ git add me.txt
+$ git commit -m 'Adding biography file'
 ~~~
 
 
 Modifica el archivo como se describe arriba (modifica una línea, agrega una cuarta línea). Para mostrar las diferencias entre el estado actual y el original, usa "git diff":
 
 ~~~
-> > $ git diff me.txt
+$ git diff me.txt
 ~~~
 
 
@@ -639,14 +639,14 @@ Modifica el archivo como se describe arriba (modifica una línea, agrega una cua
 Para cada uno de los  **commits** que hayas hecho, Git almacenó tu nombre 2 veces. Tú eres nombrado como el **author** y el **committer**. Puedes observar esto, diciendo a Git que te muestre más información acerca de tus últimos **commits**:
 
 ~~~
-> $ git log --format=full
+$ git log --format=full
 ~~~
 
 
 Cuando haces **commit** puedes nombrar a alguien más como el **author**:
 
 ~~~
-> $ git commit --author="Vlad Dracula <vlad@tran.sylvan.ia>"
+$ git commit --author="Vlad Dracula <vlad@tran.sylvan.ia>"
 ~~~
 
 
@@ -655,8 +655,8 @@ Crea un nuevo repositorio y crea dos **commits**: uno sin la opción "--author" 
 ## Solución
 
 ~~~
-> > $ git add me.txt
-> > $ git commit -m "Update Vlad's bio." --author="Frank N. Stein <franky@monster.com>"
+$ git add me.txt
+$ git commit -m "Update Vlad's bio." --author="Frank N. Stein <franky@monster.com>"
 ~~~
 
 
@@ -668,7 +668,7 @@ Crea un nuevo repositorio y crea dos **commits**: uno sin la opción "--author" 
 
 
 ~~~
-> > $ git log --format=full
+$ git log --format=full
 ~~~
 
 
