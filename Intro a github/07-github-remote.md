@@ -107,16 +107,16 @@ Branch master set up to track remote branch master from origin.
 Si la red a la que estás conectado usa un proxy es posible que tu último comando fallara con el siguiente mensaje de error: "Could not resolve hostname". Para solucionarlo es necesario informar a Git sobre el proxy:
 
 ~~~
-> $ git config --global http.proxy http://user:password@proxy.url
-> $ git config --global https.proxy http://user:password@proxy.url
+$ git config --global http.proxy http://user:password@proxy.url
+$ git config --global https.proxy http://user:password@proxy.url
 ~~~
  
 
 Si después te conectas a otra red que no usa un proxy es necesario decirle a Git que deshabilite el proxy:
 
 ~~~
-> $ git config --global --unset http.proxy
-> $ git config --global --unset https.proxy
+$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy
 ~~~
  
 
@@ -126,7 +126,7 @@ Si después te conectas a otra red que no usa un proxy es necesario decirle a Gi
 Si tu sistema operativo tiene un gestor de contraseñas configurado, "git push"  intentará usarlo cuando necesite un nombre de usuario y contraseña. Al menos ese es el comportamiento por defecto para Git.language-bash en Windows. Si quieres que haya que introducir el nombre de usuario y contraseña en la terminal, en lugar de usar el gestor de contraseñas, hay que ejecutar el siguiente comando en la terminal antes de lanzar "git push":
 
 ~~~
-> $ unset SSH_ASKPASS
+$ unset SSH_ASKPASS
 ~~~
  
 
@@ -197,7 +197,7 @@ En esta lección hemos introducido el comando "git push".
 Es muy frecuente cometer un error al especificar la URL del repositorio remoto. Este ejercicio trata de cómo corregir este tipo de errores. Empecemos por añadir un repositorio remoto con una URL inválida:
 
 ~~~
-> git remote add broken https://github.com/this/url/is/invalid
+$ git remote add broken https://github.com/this/url/is/invalid
 ~~~
  
 

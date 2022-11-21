@@ -50,14 +50,14 @@ Se recomiendan las siguientes configuraciones:
 En OS X y Linux:
 
 ~~~
-> $ git config --global core.autocrlf input
+$ git config --global core.autocrlf input
 ~~~
 
 
 Y en Windows:
 
 ~~~
-> $ git config --global core.autocrlf true
+$ git config --global core.autocrlf true
 ~~~
 
  
@@ -71,20 +71,20 @@ Drácula también tiene que establecer su editor de texto favorito, siguiendo es
 
 | Editor             | Comando de configuración                            |
 |:-------------------|:-------------------------------------------------|
-| Atom | "$ git config --global core.editor "atom --wait""|
-| nano               | "$ git config --global core.editor "nano -w""    |
-| TextWrangler (Mac)      | "$ git config --global core.editor "edit -w""    |
-| Sublime Text (Mac) | "$ git config --global core.editor "subl -n -w"" |
-| Sublime Text (Win, 32-bit) | "$ git config --global core.editor "'c:/program files (x86)/sublime text 3/sublime_text.exe' -w"" |
-| Sublime Text (Win, 64-bit) | "$ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w"" |
-| Notepad++ (Win, 32-bitl)    | "$ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin""|
-| Notepad++ (Win, 64-bit)    | "$ git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin""|
-| Kate (Linux)       | "$ git config --global core.editor "kate""       |
-| Gedit (Linux)      | "$ git config --global core.editor "gedit --wait --new-window""   |
-| Scratch (Linux)       | "$ git config --global core.editor "scratch-text-editor""  |
-| emacs              | "$ git config --global core.editor "emacs""   |
-| vim                | "$ git config --global core.editor "vim""   |
-| Visual Studio Code | "$ git config --global core.editor "code --wait"" |
+| Atom | $ git config --global core.editor "atom --wait"|
+| nano               | $ git config --global core.editor "nano -w"    |
+| TextWrangler (Mac)      | $ git config --global core.editor "edit -w"    |
+| Sublime Text (Mac) | $ git config --global core.editor "subl -n -w" |
+| Sublime Text (Win, 32-bit) | $ git config --global core.editor "'c:/program files (x86)/sublime text 3/sublime_text.exe' -w" |
+| Sublime Text (Win, 64-bit) | $ git config --global core.editor "'c:/program files/sublime text 3/sublime_text.exe' -w" |
+| Notepad++ (Win, 32-bitl)    | $ git config --global core.editor "'c:/program files (x86)/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"|
+| Notepad++ (Win, 64-bit)    | $ git config --global core.editor "'c:/program files/Notepad++/notepad++.exe' -multiInst -notabbar -nosession -noPlugin"|
+| Kate (Linux)       | $ git config --global core.editor "kate"       |
+| Gedit (Linux)      | $ git config --global core.editor "gedit --wait --new-window"   |
+| Scratch (Linux)       | $ git config --global core.editor "scratch-text-editor"  |
+| emacs              | $ git config --global core.editor "emacs"   |
+| vim                | $ git config --global core.editor "vim"   |
+| Visual Studio Code | $ git config --global core.editor "code --wait" |
 
 Es posible reconfigurar el editor de texto para Git siempre que quieras.
 
@@ -110,17 +110,17 @@ En algunas redes es necesario usar un
 [proxy](https://en.wikipedia.org/wiki/Proxy_server). Si este es el caso, es
 posible que también necesites proporcionarle a Git el proxy:
 
- ~~~
-> $ git config --global http.proxy proxy-url
-> $ git config --global https.proxy proxy-url
- ~~~
+~~~
+$ git config --global http.proxy proxy-url
+$ git config --global https.proxy proxy-url
+~~~
 
 Para deshabilitar el proxy, utiliza
 
- ~~~
-> $ git config --global --unset http.proxy
-> $ git config --global --unset https.proxy
- ~~~
+~~~
+$ git config --global --unset http.proxy
+$ git config --global --unset https.proxy
+~~~
 
 
 ## Ayuda y manual de Git
@@ -128,9 +128,6 @@ Para deshabilitar el proxy, utiliza
 Ten presente que si no recuerdas algún comando de  "git", puedes acceder a la lista de comandos utilizando la opción "-h" y al manual de Git con la flag "--help".
 
 ~~~
-> $ git config -h
-> $ git config --help
+$ git config -h
+$ git config --help
 ~~~
-
-
-

@@ -57,9 +57,9 @@ A menos que haya conflictos, se puede incluso tener dos conjuntos de cambios en 
 Un sistema de control de versiones es una herramienta que realiza un seguimiento de estos cambios para nosotros y
 nos ayuda a controlar la versión y fusionar nuestros archivos. Nos permite
 decidir qué cambios conforman la siguiente versión, a lo que llamamos hacer un
-[**commit**]({{ page.root }}/reference#commit), y mantiene metadatos útiles sobre dichos cambios. El
+**commit**, y mantiene metadatos útiles sobre dichos cambios. El
 historial completo de **commits** para un proyecto en particular y sus metadatos forman un
-[repositorio]({{ page.root }}/reference#repositorio). Los repositorios pueden mantenerse sincronizados
+**repositorio**. Los repositorios pueden mantenerse sincronizados
 en diferentes computadoras, facilitando así la colaboración entre diferentes personas.
 
 ## La larga historia de los sistemas de control de versiones 
@@ -71,7 +71,6 @@ En particular, los sistemas más modernos, como Git y [Mercurial](http://swcarpe
 son *distribuidos*, lo que significa que no necesitan un servidor centralizado para alojar el repositorio. 
 Estos sistemas modernos también incluyen potentes herramientas de fusión que hacen posible que múltiples autores trabajen dentro de 
 los mismos archivos simultáneamente.
-{:.callout}
   
 ## ¿Qué harías en las siguientes situaciones?
 
@@ -80,7 +79,7 @@ aquella *excelente* versión de la conclusión? ¿Es esto posible?
 
 Imagina que tienes 5 coautores. ¿Cómo administrarías los cambios y comentarios que ellos hagan en el artículo? 
 Si usas LibreOffice Writer o Microsoft Word, ¿qué sucede si aceptas los cambios realizados con la opción 
-'' Track Changes"? ¿Tienes un historial de esos cambios? 
+"Track Changes"? ¿Tienes un historial de esos cambios? 
 
 
 
