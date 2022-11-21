@@ -14,14 +14,21 @@
 
 <img     style="float: left;" src="OHWe.png" width="100"> 
 
-# Introducción a GitHub
+# Introducción a Git y GitHub
 **Autora**: Denise Fierro
 
 Tutorial de iniciación a Git y GitHub en español.
 
-Te recomendamos crear una cuenta gratuita en GitHub, https://github.com. Encontrarás instrucciones en español [aquí](https://docs.github.com/es/get-started/quickstart).
+## Preparación
+
+Antes de comenzar las lecciones, favor instalar Git en tu computadora si usas Windows o MacOS (en Linux viene pre-instalado). [En esta página puedes encontrar instrucciones en español sobre la instalación](https://git-scm.com/book/es/v2/Inicio---Sobre-el-Control-de-Versiones-Instalaci%C3%B3n-de-Git), incluyendo instrucciones sobre la instalación de la terminal "Git Bash" en Windows. [Aquí](https://dev.to/mailingdelgadomedina/como-instalar-gitbash-en-windows-10-4o0e) hay instrucciones adicionales al respecto, paso a paso, para Windows.
+
+También te recomendamos crear una cuenta gratuita en GitHub, https://github.com. Encontrarás instrucciones en español [aquí](https://docs.github.com/es/get-started/quickstart).
+
+Este tutorial utiliza comandos en una **terminal** (shell), especialmente la terminal *bash*. Consulta [este tutorial](https://swcarpentry.github.io/shell-novice-es/) para mayor información sobre el uso de la terminal.
 
 ## Lecciones
+
 1. [Control Automatizado de Versiones](01-basico.md) - ¿Qué es el control de versiones y por qué se deberá usar? 
 2. [Configurando Git](02-configuracion.md) - Preparando Git
 3. [Creando un repositorio](03-repositorio-nuevo.md) - Almacenaje de la información en Git
@@ -41,4 +48,4 @@ Te recomendamos crear una cuenta gratuita en GitHub, https://github.com. Encontr
 
 ## Fuente
 
-Basado en el tutorial en español "El Control de Versiones con Git", https://swcarpentry.github.io/git-novice-es/, de [The Carpentries](https://carpentries.org), que es en sí una traducción del siguiente tutorial: Daisie Huang and Ivan Gonzalez (eds): "Software Carpentry: Version Control with Git."  Version 2016.06, June 2016, https://github.com/swcarpentry/git-novice, 10.5281/zenodo.57467.
+Basado en el tutorial en español "El Control de Versiones con Git", https://swcarpentry.github.io/git-novice-es/, de [The Carpentries](https://carpentries.org), que es en sí una traducción del siguiente tutorial: Daisie Huang and Ivan Gonzalez (eds): "Software Carpentry: Version Control with Git."  Version 2016.06, June 2016, https://github.com/swcarpentry/git-novice, doi:[10.5281/zenodo.57467](https://doi.org/10.5281/zenodo.57467)
