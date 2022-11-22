@@ -24,7 +24,7 @@ Tutorial de reforzamiento de R, en español
 ## Contenido
 
 - [Notas](IntroduccionaR.md)
-- [Script de R](cursoR.rnw)
+
 - Datos:
     - [Datos meteorologicos](cibmeteo.txt)
     - [Datos glucosa](exaov.txt)
