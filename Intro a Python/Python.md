@@ -25,7 +25,7 @@ Tutorial de Python, en español
 ## Contenido
 
 - [Presentación (pdf)](Porque_Python.pdf)
-- [Instalación (pdf)](instalación_Python.pdf)
+- [Instalación (pdf)](instalación_Python.pdf). Nota: si prefieres una instalación menos pesada tienes la opción de miniconda; mira las instrucciones [aqui](../Intro%20a%20Jupyter/instalacion-jlab-conda.md).
 - Notebooks
     (Nota: si no sabes cómo usarlos, estudia el material del apartado de Jupyter)
   - [Introducción a Python](intro_to_python_ohw2022.ipynb)
