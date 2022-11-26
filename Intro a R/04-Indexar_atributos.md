@@ -16,7 +16,7 @@
 
 # Indexar objetos
 
-En esta sección usaremos los objetos creados en la lección anterior (<a href="../Intro a R/03-Objetos.html">Objetos en R</a>).
+En esta sección usaremos los objetos creados en la lección anterior (<a href="../Intro a R/03-Objetos.md">Objetos en R</a>).
 
 Podemos tener acceso a elementos particulares de un objeto usando índices. Por ejemplo, si nos interesan los primeros tres elementos del vector `x`:
 
