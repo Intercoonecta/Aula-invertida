@@ -12,7 +12,7 @@
 <strong><a href="../enlaces.html">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width=15% height=15%>
+<img     style="float: left;" src="OHWe.png" width=15% height=15%>
 
 
 # Operaciones básicas
