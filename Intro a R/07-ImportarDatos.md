@@ -12,7 +12,7 @@
 <strong><a href="../enlaces.html">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width=15% height=15%>
+<img     style="float: left;" src="OHWe.png" width=15% height=15%>
 
 # Importar datos externos
 En los primeros ejemplos vimos la manera de introducir datos y crear objetos a partir del teclado, pero lo mas usual es que tengamos nuestra información en alguna hoja de cálculo o base de datos. 
