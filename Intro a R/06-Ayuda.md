@@ -30,9 +30,11 @@ Cuando desconocemos el nombre de la función o buscamos un tema en particular, p
 
 <details>
 <summary>Ejercicio: busca ayuda sobre la función 'hist'. Dale click para ver la solución</summary>
+ 
  ```r
 > help("hist")
 ```
+ 
 </details>
 
 A partir de la pestaña Help en RStudio  también podemos acceder a la ayuda compilada en html, a los diferentes manuales de R en formato pdf que se crearon durante la instalación, a los archivos en línea de la lista de correo de ayuda de R, etc.
