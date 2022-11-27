@@ -306,9 +306,11 @@ Como en el ejemplo anterior generamos dos variables ficticias `X` y `Y`. En el c
 
 <details>
 <summary>Ejercicio: crea la gráfica para explorar visualmente la relación entre las dos variables. Dale click para ver la solución</summary>
+    
  ```r
 > plot(X, Y)
 ```
+    
 </details>
     
 
