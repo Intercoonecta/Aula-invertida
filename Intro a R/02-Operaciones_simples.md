@@ -68,6 +68,7 @@ También se pueden calcular funciones trigonométricas usando los nombres abrevi
 
 <details>
 <summary>Ejercicio: calcula el seno y coseno de 90. **Dale click para ver la solución**</summary>
+ 
  ```r
 # las funciones trigonométricas en R esperan los ángulos en radianes
 > sin(90*pi/180) 
@@ -75,4 +76,5 @@ También se pueden calcular funciones trigonométricas usando los nombres abrevi
 > cos(90*pi/180)
 [1] 6.123032e-17
 ```
+ 
 </details>
