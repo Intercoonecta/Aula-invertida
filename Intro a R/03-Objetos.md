@@ -127,10 +127,12 @@ El valor de `dimnames` en la función anterior utiliza otras funciones (`list()`
 
 <details>
 <summary>Ejercicio: selecciona la segunda función `paste()` del código anterior y evaluala en la consola para comprender su finalidad. **Dale click para ver la solución**</summary>
+     
  ```r
 > paste("c", 1:4, sep = ".")
 [1] "c.1" "c.2" "c.3" "c.4"
 ```
+     
 </details>
 
 ## Data frames
