@@ -205,10 +205,12 @@ En ambos casos, tanto las figuras como las tablas serán guardadas en el directo
 
 <details>
 <summary>Ejercicio: salva los datos de la variable 'taire' en un fichero de texto llamado 'taire_datos' separado por punto y coma indicando la coma como separador decimal. Dale click para ver la solución</summary>
+    
  ```r
 > write.table(taire, file = "taire_datos", quote = FALSE, sep = ";",
   dec = ".", row.names = TRUE, col.names = TRUE)
 ```
+    
 </details>
 
 
