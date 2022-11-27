@@ -35,11 +35,13 @@ r5 19  20
 ```
 <details>
 <summary>Ejercicio: selecciona la columna 2 de `y` completa. Dale click para ver la solución</summary>
+  
  ```r
 > y[, 2]
 r1 r2 r3 r4 r5
  2  6 10 14 18
 ```
+  
 </details>
 
 En el caso de un data frame ademas podemos acceder a las columnas mediante el nombre del data frame seguido del símbolo `$` y del nombre de la columna:
