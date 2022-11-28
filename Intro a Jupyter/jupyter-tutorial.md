@@ -12,7 +12,7 @@
 <strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
 
-<img     style="float: left;" src="OHWe.png"width=15% height=15%>
+<img     style="float: left;" src="OHWe.png" width=15% height=15%>
 
 # Introducción a Jupyter
 
@@ -121,7 +121,7 @@ Para hacer el trabajo con un cuaderno Jupyter más eficiente, recomendamos explo
 - Uso de autocompletado y descripción de funciones en ventanas desplegables
 - "Comandos mágicos"
 
-El artículo [5 trucos para Jupyter Notebook que no debes perderte](https://elmundodelosdatos.com/5-trucos-para-jupyter-notebook/) contiene una introducción excelente a estos y otros trucos! [Este otro artículo](https://codigofacilito.com/articulos/comandos-ipython) profundiza más sobre los comandos mágicos (nota: `IPython` es una consola interactiva de Python que comparte la implementación de celdas y los comandos mágicos con los cuadernos Jupyter).
+El artículo [5 trucos para Jupyter Notebook que no debes perderte](https://elmundodelosdatos.com/5-trucos-para-jupyter-notebook/) contiene una introducción excelente a estos y otros trucos! [Este otro artículo](https://codigofacilito.com/articulos/comandos-ipython) profundiza más sobre los comandos mágicos (nota: [IPython](https://ipython.org) es una terminal o consola interactiva de Python que comparte la implementación de celdas y los comandos mágicos con los cuadernos Jupyter).
 
 
 ## Referencias y recursos
