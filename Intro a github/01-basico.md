@@ -23,6 +23,7 @@ Daisie Huang and Ivan Gonzalez (eds): "Software Carpentry: Version
 Control with Git."  Version 2016.06, June 2016,
 [https://github.com/swcarpentry/git-novice](https://github.com/swcarpentry/git-novice), 
 [DOI:10.5281/zenodo.57467](https://zenodo.org/record/57467).
+---
 
 - "¿Qué es el control de versiones y por qué se deberá usar?"
 objectives:
