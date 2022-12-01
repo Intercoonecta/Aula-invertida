@@ -18,6 +18,17 @@
 
 ## Creando un repositorio
 
+**El contenido de este taller fue desarrollado por The Carpentries, y lo compartimos aquí
+para que sea fácilmente accesible a los participantes de este taller. El contenido de 
+este taller puede ser citado de la siguiente manera.**
+
+**Daisie Huang and Ivan Gonzalez (eds): "Software Carpentry: Version
+Control with Git."  Version 2016.06, June 2016,
+[https://github.com/swcarpentry/git-novice](https://github.com/swcarpentry/git-novice), 
+[DOI:10.5281/zenodo.57467](https://zenodo.org/record/57467).**
+
+---
+
 Una vez que Git está configurado, podemos comenzar a usarlo.
 Vamos a crear un directorio para nuestro trabajo y nos movemos dentro de ese directorio:
 
