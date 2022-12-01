@@ -142,7 +142,7 @@ Para ello deberías hacer un `git pull` antes de hacer cambios. El enfoque serí
  
 Cambien los roles y repitan todo el proceso.
 
-## Revisar Cambios
+## Revisar cambios
  
 El dueño hace un **push** de los **commits** al repositorio sin dar información al colaborador. ¿Cómo puede este saberlo 
 desde la línea de comandos y desde GitHub?
