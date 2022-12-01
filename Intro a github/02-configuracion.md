@@ -16,6 +16,17 @@
 
 ## Configurando Git
 
+**El contenido de este taller fue desarrollado por The Carpentries, y lo compartimos aquí
+para que sea fácilmente accesible a los participantes de este taller. El contenido de 
+este taller puede ser citado de la siguiente manera.**
+
+**Daisie Huang and Ivan Gonzalez (eds): "Software Carpentry: Version
+Control with Git."  Version 2016.06, June 2016,
+[https://github.com/swcarpentry/git-novice](https://github.com/swcarpentry/git-novice), 
+[DOI:10.5281/zenodo.57467](https://zenodo.org/record/57467).**
+
+---
+
 Cuando usamos Git en una computadora por primera vez, es necesario configurar algunas cosas. A continuación se presentan algunos ejemplos  de configuraciones que estableceremos a medida que trabajemos con Git:
 
 *  nombre y correo electrónico,
