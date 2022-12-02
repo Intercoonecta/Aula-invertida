@@ -18,9 +18,11 @@
 
 Instalaremos la aplicación `JupyterLab` en tu computadora, utilizando el sistema `conda`. 
 
-[Conda](https://docs.conda.io) es un administrador de paquetes y entornos para cualquier lenguaje de programación, pero especialmente popular en la comunidad de usuarios de Python. Permite la instalación de múltiples versiones de paquetes de software o librerías y de sus dependencias en diferentes entornos, con la capacidad de cambiar fácilmente de un entorno a otro. Puede ser instalado en tu computadora sin necesidad de tener privilegios administrativos. 
+[Conda](https://docs.conda.io) es un administrador de paquetes y entornos para cualquier lenguaje de programación, pero especialmente popular en la comunidad de usuarios de Python. Permite la instalación de diferentes combinaciones y versiones de paquetes de software o librerías y de sus dependencias en diferentes entornos, con la capacidad de cambiar fácilmente de un entorno a otro, donde cada entorno puede estar relacionado a un proyecto específico. Conda da acceso a miles de paquetes, y puede ser instalado en tu computadora sin necesidad de tener privilegios administrativos.
 
-Conda funciona tanto en Windows como en macOS y Linux. Conda y los paquetes disponibles a través de conda son gratuitos y bajo licencias de código abierto. Hay diferentes maneras de instalar conda. Aquí utilizaremos [Miniconda](https://conda.io/miniconda.html), una distribución ligera de conda. 
+Conda funciona tanto en Windows como en macOS y Linux. Conda y los paquetes disponibles a través de conda son generalmente gratuitos y accesibles bajo licencias de código abierto. Hay diferentes maneras de instalar conda. Aquí utilizaremos [Miniconda](https://conda.io/miniconda.html), una distribución ligera de conda. Otra manera popular de instalar conda es a travez de la distribución [Anaconda](https://www.anaconda.com/products/distribution), que pre-instala una gran cantidad de paquetes comunes de Python. Recomendamos Miniconda porque se instala más rápidamente, requiere menos espacio en el disco, y promueve la inclusión selectiva de los paquetes necesarios para proyectos específicos en entornos bien definidos.
+
+En estos tutoriales iniciales no profundizaremos sobre conda más allá de lo necesario. Entraremos en más detalles durante el hackatón. Si quieres aprender más, visita los enlaces al final de esta página.
 
 ## Instalar Miniconda
 
@@ -56,12 +58,13 @@ Si el instalador te pregunta si quieres que inicialize Miniconda3 corriendo `con
 
 ## Crear entorno conda para JupyterLab
 
-Con conda ya instalado, el último paso es crear un entorno de conda que usaremos para correr la aplicación JupyterLab. Además de JupyterLab, este entorno incluirá Python 3.10 y dos paquetes de Python de uso amplio, `Pandas` y `Matplotlib`.
+Con conda ya instalado, el último paso es crear un entorno de conda que usaremos para correr la aplicación JupyterLab. Además de JupyterLab, este entorno incluirá Python 3.10 y tres paquetes de Python de uso amplio que también son utilizados en el tutorial de Python: `matplotlib`, `pandas` y `netcdf4`.
 
-En la terminal donde instalaste miniconnda, corre este comando de `conda create` para crear el entorno: `conda create --yes -n jupyterlab -c conda-forge python=3.10 jupyterlab jupyterlab-language-pack-es-ES nb_conda_kernels pandas matplotlib-base`
+En la terminal donde instalaste miniconda, corre este comando de `conda create` para crear el entorno con el nombre "jupyterlab": `conda create --yes -n jupyterlab -c conda-forge python=3.10 jupyterlab jupyterlab-language-pack-es-ES nb_conda_kernels matplotlib-base pandas netcdf4`
 
 Este entorno contiene un "paquete de idioma" (*language pack*) de español que permitirá cambiar el interfaz de JupyterLab al español.
 
+("conda-forge" es un "canal" de paquetes de conda administrado por una gran comunidad internacional, que actualmente contiene más de 20 mil paquetes de código abierto)
 ## Referencias y recursos
 
 - En [este sitio (CIDE, Centro de Investigación y Docencias Economicas, A.C., México)](https://rafneta.github.io/CienciaDatosPythonCIDE/Laboratorios/Lab1/instalacion.html) puedes encontrar más información sobre el uso de conda. 
