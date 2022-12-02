@@ -30,6 +30,8 @@ El ecosistema Jupyter utiliza tecnología web que permite correr las apliaciones
 
 Instalaremos la aplicación `JupyterLab` en tu computadora, utilizando el sistema `conda`. Encontrarás instrucciones detalladas en [nuestra página de instalación de JupyterLab y conda.](instalacion-jlab-conda.md)
 
+(Los cuadernos Jupyter también pueden ser manejados y ejecutados por medio de la aplicación [*Jupyter Notebook*](https://datacarpentry.org/python-ecology-lesson-es/jupyter_notebooks/index.html), también llamada Jupyter Clásico. Esta es una versión más simple de JupyterLab enfocada en el manejo de un sólo cuaderno a la vez. Es el predecesor de JupyterLab.)
+
 ### Lanzar JupyterLab
 
 La aplicación `JupyterLab` es lanzada desde la **terminal** (*shell*). En la terminal, primero cambia de carpeta hacia tu carpeta de inicio (*home folder*), o la carpeta que contiene los archivos que quieras utilizar. Luego activa el entorno "jupyterlab" recién creado (este ejemplo es en Windows):
