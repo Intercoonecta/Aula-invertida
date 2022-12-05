@@ -14,7 +14,7 @@
 
 <img     style="float: left;" src="OHWe.png" width=15% height=15%>
 
-# Introducción a Jupyter
+# Tutorial de Jupyter
 
 ## ¿Qué es Jupyter?
 
