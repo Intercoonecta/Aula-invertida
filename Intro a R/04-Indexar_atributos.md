@@ -1,13 +1,13 @@
 <p align="left">
 <strong><a href="../Indice.md">Indice</a></strong>
 |
-<strong><a href="../Intro a R/R.md">R</a></strong>
+<strong><a href="../Intro-a-R/R.md">R</a></strong>
 |
-<strong><a href="../Intro a Python/Python.md">Python</a></strong>
+<strong><a href="../Intro-a-Python/Python.md">Python</a></strong>
 |
-<strong><a href="../Intro a Jupyter/Jupyter.md">Jupyter</a></strong>
+<strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
 |
-<strong><a href="../Intro a github/Github.md">Github</a></strong>
+<strong><a href="../Intro-a-github/Github.md">Github</a></strong>
 |
 <strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
@@ -16,7 +16,7 @@
 
 # Indexar objetos
 
-En esta sección usaremos los objetos creados en la lección anterior (<a href="../Intro a R/03-Objetos.md">Objetos en R</a>).
+En esta sección usaremos los objetos creados en la lección anterior (<a href="../Intro-a-R/03-Objetos.md">Objetos en R</a>).
 
 Podemos tener acceso a elementos particulares de un objeto usando índices. Por ejemplo, si nos interesan los primeros tres elementos del vector `x`:
 

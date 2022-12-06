@@ -1,13 +1,13 @@
 <p align="left">
 <strong><a href="../Indice.md">Indice</a></strong>
 |
-<strong><a href="../Intro a R/R.md">R</a></strong>
+<strong><a href="../Intro-a-R/R.md">R</a></strong>
 |
-<strong><a href="../Intro a Python/Python.md">Python</a></strong>
+<strong><a href="../Intro-a-Python/Python.md">Python</a></strong>
 |
-<strong><a href="../Intro a Jupyter/Jupyter.md">Jupyter</a></strong>
+<strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
 |
-<strong><a href="../Intro a github/Github.md">Github</a></strong>
+<strong><a href="../Intro-a-github/Github.md">Github</a></strong>
 |
 <strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
@@ -25,7 +25,7 @@ Tutorial de Python, en español
 ## Contenido
 
 - [Presentación (pdf)](Porque_Python.pdf)
-- [Instalación (pdf)](instalación_Python.pdf). Nota: si prefieres una instalación menos pesada tienes la opción de miniconda; mira las instrucciones [aqui](../Intro%20a%20Jupyter/instalacion-jlab-conda.md).
+- [Instalación (pdf)](instalación_Python.pdf). Nota: si prefieres una instalación menos pesada tienes la opción de miniconda; mira las instrucciones [aqui](../Intro-a-Jupyter/instalacion-jlab-conda.md).
 - Notebooks
     (Nota: si no sabes cómo usarlos, estudia el material del apartado de Jupyter)
   - [Introducción a Python](intro_to_python_ohw2022.ipynb)
