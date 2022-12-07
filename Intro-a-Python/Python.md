@@ -32,4 +32,5 @@ Tutorial de Python, en español
   - [Lectura de datos tabulares](read_tabulardata.ipynb)
   - [Introducción a NetCDF](intro_to_netcdf.ipynb)
   - [Introducción a visualización](Intro_to_plot.ipynb)
+  - El archivo en formato netcdf utilizado en los dos tutoriales anteriores puede ser bajado en este enlace: [ERA5_Coarse.nc](https://github.com/Intercoonecta/Aula-invertida/raw/main/Intro-a-Python/ERA5_Coarse.nc)
  - [Grabación en YouTube](https://www.youtube.com/watch?v=pmz4BB9tzhg&list=PLA6PlfxWZPLTPQ_OIr3dDPF9FRiHQXoVF&index=1)
