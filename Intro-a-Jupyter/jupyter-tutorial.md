@@ -61,7 +61,7 @@ Se abrirá una ventana de confirmación del cambio:
 
 ![Confirmar cambio de idioma](imagenes/JupyterLab-CambiarIdioma-Confirmar.png)
 
-Al confirmarlo presionando `Change and reload`, el navegador se refrescará y verás el interfaz traducido al español. Ojo: ¡la traducción no es 100% completa!
+Al confirmarlo presionando `Change and reload`, el navegador se refrescará y verás el interfaz traducido al español. Este cambio sólo tendrás que hacerlo una vez en tu computadora, mientras utilices este entorno de conda. Ojo: ¡la traducción no es 100% completa!
 
 ### Tour del interfaz
 
