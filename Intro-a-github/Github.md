@@ -43,7 +43,7 @@ Este tutorial utiliza comandos en una **terminal** (shell), especialmente la ter
 
 ## Enlaces 
 - [Curso de carpentry (en español), "El Control de Versiones con Git"](https://swcarpentry.github.io/git-novice-es/)
-- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git.md) 
+- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git) 
 
 
 ## Fuente
