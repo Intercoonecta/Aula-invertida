@@ -7,6 +7,8 @@
 |
 <strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
 |
+<strong><a href="../Intro-a-Markdown/Markdown.md">Markdown</a></strong>
+|
 <strong><a href="../Intro-a-github/Github.md">Github</a></strong>
 |
 <strong><a href="../enlaces.md">Enlaces</a></strong>
@@ -96,11 +98,9 @@ El código en una **celda de código** puede producir resultados visibles al ser
 
 #### Celdas Markdown
 
-La celda de [Markdown](https://tutorialmarkdown.com/markdown) permite escribir texto formateado o incluir enlaces, listas, encabezados de secciones, tablas, ecuaciones, imágenes u otro contenido multimedia. Markdown es un lenguage de marcado en texto plano fácil de aprender. Es como una versión mucho más sencilla de HTML. En Markdown agregas símbolos de su sintaxis para indicar el tipo de formateo o elementos a incluir. Por ejemplo, rodeando el texto con dos caracteres estrellas lo formatea en negrilla: `**negrilla**` produce **negrilla**. Símbolos numerales al comienza de una línea la convierten en encabezado: `# encabazado de primer nivel`, `## encabazado de segundo nivel`, etc. Este es un ejemplo de una celda Markdown:
+La celda de [Markdown](https://tutorialmarkdown.com/markdown) permite escribir texto formateado o incluir enlaces, listas, encabezados de secciones, tablas, ecuaciones, imágenes u otro contenido multimedia. 
 
-![celda de Markdown](imagenes/celdas-markdown.png)
-
-Pare aprender más sobre Markdown, [aquí](https://datosgobar.github.io/portal-andino/markdown-guide/) puedes encontrar una guía breve pero completa. [Este Tutorial Markdown](https://tutorialmarkdown.com/markdown) incluye más explicaciones y ejemplos. Ahí también econtrarás un [editor en línea](https://editormarkdown.com/) donde puedes practicar escribir con códigos Markdown y ver los resultados inmediatamente.
+Ve a nuestro [tutorial de Markdown](../Intro-a-Markdown/Markdown.md) para aprender más sobre Markdown, su sintaxis, y su uso.
 
 ### Barra de herramientas de un cuaderno
 
