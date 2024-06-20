@@ -7,7 +7,9 @@
 |
 <strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
 |
-<strong><a href="../Intro-a-github/Github.md">Github</a></strong>
+<strong><a href="../Intro-a-Markdown/Markdown.md">Markdown</a></strong>
+|
+<strong><a href="../Intro-a-github/Github.md">Git y GitHub</a></strong>
 |
 <strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
