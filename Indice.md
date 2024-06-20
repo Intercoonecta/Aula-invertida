@@ -11,7 +11,7 @@
 |
 <strong><a href="Intro-a-Markdown/Markdown.md">Markdown</a></strong>
 |
-<strong><a href="Intro-a-github/Github.md">Github</a></strong>
+<strong><a href="Intro-a-github/Github.md">Git y GitHub</a></strong>
 |
 <strong><a href="enlaces.md">Enlaces</a></strong>
 </p>
@@ -22,7 +22,7 @@
     
 # OHWe: formación básica
 **Autores**:
-Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierro Arcos, Emilio Mayorga
+Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierro Arcos, Emilio Mayorga, Jorge Cornejo-Donoso
 
 Tutoriales de iniciación en lenguajes de programación open source, el entorno de trabajo Jupyter y el trabajo colaborativo con control de cambios con git/github.
 
