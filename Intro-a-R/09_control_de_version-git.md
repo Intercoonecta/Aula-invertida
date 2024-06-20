@@ -1,286 +1,24 @@
-# Control de versiones con git y GitHub
-
-## Objetivos
-
-En este capítulo veremos:
-
--   ¿Por qué **git** es útil para análisis reproducibles?
--   ¿Cómo usar **git** para registrar los cambios que se hacen en el
-    tiempo?
--   ¿Cómo usar **GitHub** para colaborar?
--   ¿Cómo estructurar los “*commits*” para que los cambios sean claros
-    para otros?
--   ¿Cómo escribir mensajes de “*commits*” que sean efectivos?
-
-## El problema con los nombres de archivo
-
-<img src="imagenes/GIT4RStudio/3.1_phd_comics_final.png " alt="El dilema de usar nombres como descriptor de versiones." width="80%"/>
-
-<p class="caption">
-El dilema de usar nombres como descriptor de versiones.
+<p align="left">
+<strong><a href="../Indice.md">Indice</a></strong>
+|
+<strong><a href="../Intro-a-R/R.md">R</a></strong>
+|
+<strong><a href="../Intro-a-Python/Python.md">Python</a></strong>
+|
+<strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
+|
+<strong><a href="../Intro-a-Markdown/Markdown.md">Markdown</a></strong>
+|
+<strong><a href="../Intro-a-github/Github.md">Github</a></strong>
+|
+<strong><a href="../enlaces.md">Enlaces</a></strong>
 </p>
 
+<img     style="float: left;" src="OHWe.png" width="100"> 
 
-Cada archivo en un proceso científico sufre de cambios. Los manuscritos
-son editados. Las figuras son revisadas. Los códigos se corrigen cuando
-se encuentran problemas. Los archivos de datos se combinan, los errores
-son corregidos, se dividen y combinan nuevamente. En el curso de un
-análisis simple, uno puede esperar miles de cambios en los archivos. Y
-aún así, todo lo que usamos para identificas este sinnúmero de cambios
-son los simples **nombres de archivos**.
-Teniendo esto en consideración, es lógico pensar que debe existir una
-forma mejor… Y si la hay, se conoce como **Control de Versiones**.
+# Trabajando localmente con Git y GitHub en RStudio
+**Autor:** Jorge Cornejo-Donoso
 
-Un **sistema de control de versiones** ayuda a seguir lso cambios que se
-realizan a nuestros archivos, sin el desastre que resulta de utilizar
-sólo el nombre de los archivos. En los sistemas de control de versiones
-como `git`, se registra no sólo el nombre del archivo, si no que además
-su contenido, de esta forma, cuando el contenido cambia, se puede
-identificar que partes estaban y donde. El registro además contiene la
-relaciones entre las versiones, de esta forma se tiene un historial de
-todos los cambios deribados de las cada una de las versiones y es fácil
-dibujar un gráfico que muestre los cambios que ha sufrido un archivo,
-con sus versiones previas y aquellas derivadas.
-
-<img src="imagenes/GIT4RStudio/3.2_version-graph.png" alt="Evolución de las versiones de un archivo." width="40%"/>
-
-<p class="caption">
-
-Evolución de las versiones de un archivo.
-
-</p>
-
-Los sistemas de control de versiones asignan un identificador a cada
-versión de cada archivo, manteniendo un registro de como están
-relacionados entre ellos. Además, estos sistemas permiten generar ramas
-laterales a una versión, la que puede ser fusionada de regreso a la
-tronco principal. Es posible además tener *múltiples copias* en
-múltiples computadores como respaldos y para trabajar colaborativamente.
-Finalmente, se pueden incluir etiquetas (tags) a versiones particulares,
-de esta forma es fácil retornar la versión que tenían los archivos
-cuando fueron etiquetados. Esto es particulamente útil para identificar
-una versión exacta de los datos, código y texto, por ejemplo, de un
-manuscrito que fue enviado para ser publicado, este puede ser el caso de
-la etiqueda `R2` en la figura anterior.
-
-## Control de versiones y colaboración usando Git and GitHub
-
-Es importante hacer la distinción entre **git** y **GitHub**.
-
--   **git**: Software para el control de versiones que monitorea los
-    archivos de un directorio (repositorio).
-    -   git crea el historial de versiones del repositorio.
--   **GitHub**: Sitio web que permite a los usuarios almacenar sus
-    repositorios git y compartirlos con otros usuarios.
-
-<img src="imagenes/GIT4RStudio/6.3_vc-local-github.png" alt="Diferencia entre git y GitHub." width="60%"/>
-
-<p class="caption">
-
-Diferencia entre git y GitHub.
-
-</p>
-
-## Veamos un repositorio de GitHub
-
-La captura de pantalla en la figura que se presenta a continuación, muestra una
-copia de un repositorio almacenado en GitHub, con el listado de archivos
-y directorios, indicando cuando fueron modificados, incluyendo
-información acerca de quien hizo los cambios y una pequeña descripción
-de los cambios realizados.
-
-<img src="imagenes/GIT4RStudio/6.4_ss3sim-github.png" alt="Captura de pantalla de un repositorio en GitHub." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla de un repositorio en GitHub.
-
-</p>
-
-Si nos metemos en los “commits” del repositorio, podemos ver la historia de los cambios
-que se le han realizado. Por ejemplo, se ve que `kellijohnson` y
-`seananderson` hicieron algunos cambios durante junio y julio:
-
-<img src="imagenes/GIT4RStudio/6.5_ss3sim-commits.png" alt="Captura de pantalla de los Commits de un repositorio en GitHub." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla de los Commits de un repositorio en GitHub.
-
-</p>
-
-Si entramos ahora a ver los cambios realizados el 13 de julio, podemos saber exactamente cuales
-fueron los cambios realizados a cada archivo:
-
-<img src="imagenes/GIT4RStudio/6.6_ss3sim-diff.png" alt="Captura de pantalla donde se presentan las diferencias entre dos versiones alojadas en un repositorio de GitHub." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla donde se presentan las diferencias entre dos
-versiones alojadas en un repositorio de GitHub.
-
-</p>
-
-Monitorear estas modificaciones, como se relacionan a cada una de las
-versiones de un software en particular y a los archivos es exactamente
-para lo que fueron diseñados git y GitHub. Vamos a mostrar como estos
-sistemas pueden ser realmente efectivos para monitorear las versiones de
-códigos científicos, figuras y manuscritos y de esta forma tener flujos
-de trabajo reproducibles.
-
-## El ciclo de vida de Git
-
-Como usuario de git usted tiene que entender algunos conceptos básicos
-asociados a los sets de cambios con versiones y como estos son
-almacenados y se mueven a través del repositorio. Cualquier repositorio
-de git puede ser clonado, de esta forma existe en forma local y remota.
-Pero cada uno de estos repositorios clonados son una copia simple de
-todos los archivos y del historial de los cambios que se han realizado,
-lo que son almacenados en un forma repositio git particular. Para
-nuestros propósitos, tenemos que considerar un repositorio de git
-simplemente como un directorio que contiene adicionalmente un set de
-metadatos relacionado las versiones.
-
-En un directorio local donde git fue habilitado, el directorio contiene
-la versión actual de todos los archivos del repositorio. Estos archivos
-de trabajo están unidos a un directorio escondido que contiene el
-‘Repositorio local’, el que a su vez contiene todos los otros cambios
-que se han realizado a los archivos y los metadatos sobre las versiones.
-
-De esta forma, cuando se está usando git para trabajar con archivos, se
-pueden usar los comandos de git para indicar específicamente que cambios
-a los archivos de trabajo deben ser definidos para las versiones (usando
-el comando `git add`) y cuando grabar estos cambios como una versión en
-el repositorio local (usando el comando `git commit`).
-
-Los demás conceptos se relacionan a la sincronización de los cambios en
-el repositorio local a un repositorio remoto. El comando `git push` se
-usar para enviar los cambios realizados en forma local a un repositorio
-remoto (posiblemente en GitHub) y el comando `git pull` es usado para
-traer los cambios del repositorio remoto y unirlos al repositorio local.
-
-<img src="imagenes/GIT4RStudio/6.7_git-flowchart.png" alt="Diagrama de flujo del ciclo de vida de git." width="70%"/>
-
-<p class="caption">
-
-Diagrama de flujo del ciclo de vida de git.
-
-</p>
-
--   `git clone`: Copia todo el repositorio remoto a uno local.
--   `git add` (stage): Notifica a git de monitorear un set particular de
-    cambios.
--   `git commit`: Almacena los cambios realizados como una versión.
--   `git pull`: Combina los cambios de un repositorio remoto a nuestro
-    repositorio local.
--   `git push`: Copia los cambios de nuestro repositorio local al
-    repositorio remoto.
--   `git status`: Determina el estado de los archivos en el repositorio
-    local.
--   `git log`: Imprime el historial de cambios en el repositorio.
-
-Estos siete comandos son la mayoría de los comando que va a necesitar
-para utilizar git en forma exitosa. Pero todo esto es demasiado
-abstracto, mejor exploremos estos conceptos utilizando ejemplos reales.
-
-## Cree un repositorio remoto en GitHub
-
-Empecemos creando un repositorio en GitHub, luego editaremos algunos
-archivos.
-
--   Ingrese al sitio [GitHub](https://github.com).
--   Clic en el botón de repositorio nuevo (New repository).
--   Nómbrelo como `sasap-test`.
--   Cree un archivo README.md.
--   Defina la licencia a Apache 2.0.
-
-<img src="imagenes/GIT4RStudio/6.8_new-repo-github.png" alt="Captura de pantalla de la creación de un repositorio nuevo en GitHub." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla de la creación de un repositorio nuevo en GitHub.
-
-</p>
-
-¡Usted acaba de crear su primer repositorio! Este repositorio fue creado
-con un par de archivos que GitHub hace por usted, son los archivos
-README.md, LICENSE y .gitignore.
-
-<img src="imagenes/GIT4RStudio/6.9_sasap-test-repo.png" alt="Captura de pantalla con el repositorio recién creado llamado sasap-test." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla con el repositorio recién creado llamado sasap-test.
-
-</p>
-
-Para hacer cambios menores a archivos de texto se puede utilizar la
-interfase web de GitHub. Navegue al archivo `README.md` en el listado de
-archivos y habilite la edición haciendo clic en el icono del *lápiz*.
-Este es un archivo normal con el formado Markdown, ahora se puede
-editar, agregando o removiendo texto. Cuando haya terminado, incluya un
-mensaje de commit y luego haga clic en el botón `Commit changes`.
-
-<img src="imagenes/GIT4RStudio/6.10_sasap-test-edit.png" alt="Captura de pantalla con la interfase web de GitHub para la edición de documentos de texto." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla con la interfase web de GitHub para la edición de
-documentos de texto.
-
-</p>
-
-<img src="imagenes/GIT4RStudio/6.11_sasap-test-commit.png" alt="Captura de pantalla con la interfase web de GitHub para la confirmar de los cambios realizados al documento de texto (commit changes)." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla con la interfase web de GitHub para la confirmar de
-los cambios realizados al documento de texto (commit changes).
-
-</p>
-
-Felicitaciones, ahora usted acaba de confirmar (commit) los cambios,
-ahora es el autor de la primera versión de este archivo. Si navega de
-regreso a la página del repositorio GitHub, puede ver la lista de los
-cambios confirmados (commits) ahí, así como la visualización del
-documento generado a partir del archivo README.md.
-
-<img src="imagenes/GIT4RStudio/6.12_sasap-test-displayed.png" alt="Captura de pantalla con la interfase web los cambios corfimados (commits) y de la visualización de la página README.md." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla con la interfase web los cambios corfimados
-(commits) y de la visualización de la página README.md.
-
-</p>
-
-Expliquemos algunas cosas sobre esta ventana. Representa una vista del
-repositorio que acaba de crear, hasta ahora mostrando todos sus
-archivos. Para cada archivo, muestra la fecha de la última modificación
-y el mensaje asociado al *commit* que se utilizó para describir los
-cambios realizados. Esta es la razón por qué es tan importante escribir
-buenos mensajes, que contengan información relevante cuando se hace el
-*commit*. Además, el título azul sobre el listado de archivos muestra el
-*commit* más reciente, con su mensaje asociado y su identificados SHA.
-Ese identificador SHA es la clave para el set de versiones. Si hace clic
-en el identificador SHA (*810f314*), va a mostrar los cambios que se
-hicieron en ese *commit* en particular.
-
-En la siguiente sección vamos a usar el URL de GitHub del repositorio
-que acaba de crear y lo usaremos plara clonarlo (`clone`) a un
-repositorio en nuestra máquina local y así editar los archivos con
-RStudio. Para eso, primero tenemos que copiar el URL de GitHub, que
-representa la dirección del repositorio:
-
-<img src="imagenes/GIT4RStudio/6.13_sasap-test-clone-url.png" alt="Captura de pantalla para clonar un repositorio GitHub." width="100%"/>
-
-<p class="caption">
-
-Captura de pantalla para clonar un repositorio GitHub.
-
-</p>
-
-## Trabajando localmente con Git en RStudio
 
 RStudio incluye soporte para Git como sistema de control de versiones,
 pero esto **sólo** ocurre si estamos trabajando en un *Proyecto de
@@ -299,7 +37,9 @@ Esto es lo que vamos a hacer:
 7.  Enviar (*Push*) estos cambios a GitHub.
 8.  Ver el historial de cambios en GitHub.
 
-### Crear nuevo Proyecto (Create a New Project)
+Consulte el tutorial [Introducción a Git y GitHub](../Intro-a-github/Github.md) para acceder a una presentación más amplia a estas herramientas.
+
+## Crear nuevo Proyecto (Create a New Project)
 
 Comience creando un *New Project…* en RStudio, seleccione la opción
 *Version Control* y pegue el URL de GitHub que copió en el espacio para
@@ -352,7 +92,7 @@ usted vaya tomando decisiones sobre el control de versiones en RStudio,
 estos iconos van a ir cambiando para reflejar el estatus de la versión
 actual de cada uno de los archivos.
 
-### Inspeccionar el historial (history)
+## Inspeccionar el historial (history)
 
 A continuación vamos a hacer clic en el botón *History* (historial, es
 el reloj que aparece en la primera fila al interior del panel ed Git),
@@ -370,7 +110,7 @@ Historial de los cambios realizados en el repositorio local.
 
 </p>
 
-### Confirme cambios haciendo clic en *commit* al archivo README.md (Commit a README.md change)
+## Confirme cambios haciendo clic en *commit* al archivo README.md (Commit a README.md change)
 
 Ahora hagamos algunos cambios al archivo README.md en RStudio. Agregue
 una sección nueva con un block de *markdown* como este:
@@ -418,7 +158,7 @@ repositorio y los últimos cambios realizados.
 
 </p>
 
-### Commit los cambios hechos en Rstudio
+## Commit los cambios hechos en Rstudio
 
 Para confirmar los cambios que se acaban de hacer en el archivo
 README.md, selecciones la caja de selección *Staged* a lado del nombre
@@ -466,7 +206,7 @@ descriptivo de la confirmación.
 Cuando haya terminado no habrán mas cambios pendientes en el panel *Git*
 y el repositorio estará completamente limpio.
 
-### Inspeccionando el historial
+## Inspeccionando el historial
 
 Fíjese que ahora el mensaje dice:
 
@@ -488,7 +228,7 @@ Captura de pantalla con 4 commits.
 
 </p>
 
-### Enviar (Push) cambios a GitHub
+## Enviar (Push) cambios a GitHub
 
 Ahora que se han hecho todos los cambios deseados en el repositorio
 local, usted puede empujar (*push*) los cambios a GitHub usando el botón
@@ -581,31 +321,3 @@ desarrolle una estructura básica y guárdela.
 
 A continuación *stage* y *commit* el archivo en forma local y luego
 *push it* a GitHub.
-
-## Tópicos avanzados
-
-Hay mucho que no hemos visto en este tutorial. Existen tutoriales muy
-completos que cubren tópicos mas avanzados. Algunos de estos temas son:
-
--   Usando git en la linea de comándos.
-
--   Resolviendo conflictos.
-
--   *Branching* y *merging*.
-
--   *Pull requests* versus contribuciones directas por colaboradores.
-
--   Usando *.gitignore* para proteger datos sensitivos.
-
--   *GitHub Issues* y por que son útiles.
-
--   y más, mucho más.
-
--   [Try Git](https://try.github.io) es un tutorial interactivo muy
-    bueno y completo.
-
--   Software Carpentry [Version Control with
-    Git](http://swcarpentry.github.io/git-novice/)
-
--   Codecademy [Learn Git](https://www.codecademy.com/learn/learn-git)
-    (some paid)

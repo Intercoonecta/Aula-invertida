@@ -16,7 +16,7 @@
 
 # Introducción a R
 
-**Autores:** Héctor Villalobos, Marián Peña
+**Autores:** Héctor Villalobos, Marián Peña, Jorge Cornejo-Donoso
 
 Tutorial de reforzamiento de R, en español
 
@@ -33,6 +33,7 @@ Este curso introductorio tiene por objeto mostrar el uso básico de R desde un e
 6. [Ayuda](06-Ayuda.md) - Como buscar ayuda de paquetes y funciones
 7. [Importar datos](07-ImportarDatos.md) - Importar datos externos (.txt, .csv, .xlsx)  
 8. [Análisis con datos reales](08-Analisis.md) - Análisis de datos temporales, Análisis de regresión lineal y no lineal, Análisis de variancia.
+9. [Trabajando localmente con Git y GitHub](09_control_de_version-git.md) - Uso de Git e interacciones con GitHub desde RStudio.
 
 
 ## Lecturas recomendadas
