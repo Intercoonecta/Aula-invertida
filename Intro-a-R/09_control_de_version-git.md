@@ -1,3 +1,9 @@
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
 # Control de versiones con git y GitHub
 
 ## Objetivos
@@ -17,9 +23,10 @@ En este capítulo veremos:
 <img src="imagenes/GIT4RStudio/3.1_phd_comics_final.png " alt="El dilema de usar nombres como descriptor de versiones." width="80%"/>
 
 <p class="caption">
-El dilema de usar nombres como descriptor de versiones.
-</p>
 
+El dilema de usar nombres como descriptor de versiones.
+
+</p>
 
 Cada archivo en un proceso científico sufre de cambios. Los manuscritos
 son editados. Las figuras son revisadas. Los códigos se corrigen cuando
@@ -27,9 +34,9 @@ se encuentran problemas. Los archivos de datos se combinan, los errores
 son corregidos, se dividen y combinan nuevamente. En el curso de un
 análisis simple, uno puede esperar miles de cambios en los archivos. Y
 aún así, todo lo que usamos para identificas este sinnúmero de cambios
-son los simples **nombres de archivos**.
-Teniendo esto en consideración, es lógico pensar que debe existir una
-forma mejor… Y si la hay, se conoce como **Control de Versiones**.
+son los simples **nombres de archivos**. Teniendo esto en consideración,
+es lógico pensar que debe existir una forma mejor… Y si la hay, se
+conoce como **Control de Versiones**.
 
 Un **sistema de control de versiones** ayuda a seguir lso cambios que se
 realizan a nuestros archivos, sin el desastre que resulta de utilizar
@@ -83,11 +90,11 @@ Diferencia entre git y GitHub.
 
 ## Veamos un repositorio de GitHub
 
-La captura de pantalla en la figura que se presenta a continuación, muestra una
-copia de un repositorio almacenado en GitHub, con el listado de archivos
-y directorios, indicando cuando fueron modificados, incluyendo
-información acerca de quien hizo los cambios y una pequeña descripción
-de los cambios realizados.
+La captura de pantalla en la figura que se presenta a continuación,
+muestra una copia de un repositorio almacenado en GitHub, con el listado
+de archivos y directorios, indicando cuando fueron modificados,
+incluyendo información acerca de quien hizo los cambios y una pequeña
+descripción de los cambios realizados.
 
 <img src="imagenes/GIT4RStudio/6.4_ss3sim-github.png" alt="Captura de pantalla de un repositorio en GitHub." width="100%"/>
 
@@ -97,9 +104,10 @@ Captura de pantalla de un repositorio en GitHub.
 
 </p>
 
-Si nos metemos en los “commits” del repositorio, podemos ver la historia de los cambios
-que se le han realizado. Por ejemplo, se ve que `kellijohnson` y
-`seananderson` hicieron algunos cambios durante junio y julio:
+Si nos metemos en los “commits” del repositorio, podemos ver la historia
+de los cambios que se le han realizado. Por ejemplo, se ve que
+`kellijohnson` y `seananderson` hicieron algunos cambios durante junio y
+julio:
 
 <img src="imagenes/GIT4RStudio/6.5_ss3sim-commits.png" alt="Captura de pantalla de los Commits de un repositorio en GitHub." width="100%"/>
 
@@ -109,8 +117,8 @@ Captura de pantalla de los Commits de un repositorio en GitHub.
 
 </p>
 
-Si entramos ahora a ver los cambios realizados el 13 de julio, podemos saber exactamente cuales
-fueron los cambios realizados a cada archivo:
+Si entramos ahora a ver los cambios realizados el 13 de julio, podemos
+saber exactamente cuales fueron los cambios realizados a cada archivo:
 
 <img src="imagenes/GIT4RStudio/6.6_ss3sim-diff.png" alt="Captura de pantalla donde se presentan las diferencias entre dos versiones alojadas en un repositorio de GitHub." width="100%"/>
 
@@ -245,7 +253,10 @@ regreso a la página del repositorio GitHub, puede ver la lista de los
 cambios confirmados (commits) ahí, así como la visualización del
 documento generado a partir del archivo README.md.
 
-<img src="imagenes/GIT4RStudio/6.12_sasap-test-displayed.png" alt="Captura de pantalla con la interfase web los cambios corfimados (commits) y de la visualización de la página README.md." width="100%"/>
+![Captura de pantalla con la interfase web los cambios corfimados
+(commits) y de la visualización de la página
+README.md.](imagenes/GIT4RStudio/6.12_sasap-test-displayed.png){alt="Captura de pantalla con la interfase web los cambios corfimados (commits) y de la visualización de la página README.md."
+width="100%"}
 
 <p class="caption">
 
@@ -269,7 +280,7 @@ hicieron en ese *commit* en particular.
 En la siguiente sección vamos a usar el URL de GitHub del repositorio
 que acaba de crear y lo usaremos plara clonarlo (`clone`) a un
 repositorio en nuestra máquina local y así editar los archivos con
-RStudio. Para eso, primero tenemos que copiar el URL de GitHub, que
+**RStudio**. Para eso, primero tenemos que copiar el URL de GitHub, que
 representa la dirección del repositorio:
 
 <img src="imagenes/GIT4RStudio/6.13_sasap-test-clone-url.png" alt="Captura de pantalla para clonar un repositorio GitHub." width="100%"/>
@@ -437,7 +448,7 @@ que se realizará.
 </p>
 
 Note que algunos de los cambios en el repositorio, `.gitignore` y
-`sasap-test.Rproj`, aun no se han confirmado y no serán parte del
+`aula-ejemplo.Rproj`, aun no se han confirmado y no serán parte del
 *commit*. En otras palabras, aun existen cambios pendientes para ser
 registrados en el repositorio. Usted vará una notificación que indica
 (en inglés):
@@ -452,7 +463,7 @@ pero que este no se está en el repositorio de origen (`origin`), no se
 ha hecho push, donde origen es el nombre que se usa típicamente para el
 repositorio en GitHub. Entonces, confirmemos los cambios pendientes,
 para esto seleccione la caja *staged* y luego escriba el mensaje
-describiendo el commit (fig. @ref(fig:rstudioCommit2)).
+describiendo el commit (fig. @ref(fig:rstudioCommit2)).
 
 <img src="imagenes/GIT4RStudio/6.20_rstudio-commit-2.png" alt="Captura de pantalla con los archivos a confirmar sus cambios y el texto descriptivo de la confirmación." width="100%"/>
 
@@ -477,7 +488,7 @@ confirmación</code>
 
 Estas 2 confirmaciones son las dos que acabamos de hacer y no se han
 empujado (push) aun a GitHub. Haciendo clic en el botón *History*
-(historial), podemos ver que hay un total de 4 commit en el repositorio
+(historial), podemos ver que hay un total de 3 commit en el repositorio
 local, mientras hay sólo 2 en GitHub (fig. @ref(fig:rstudioCommit3)).
 
 <img src="imagenes/GIT4RStudio/6.21_rstudio-history-2.png" alt="Captura de pantalla con 4 commits." width="100%"/>
@@ -496,7 +507,7 @@ local, usted puede empujar (*push*) los cambios a GitHub usando el botón
 password de GitHub, luego los cambios serán enviados. Esto dejará su
 repositorio local en un estado totalmente limpio y sincronizado con el
 repositorio remoto. Terminado esto, en el historial (en GitHub) se
-muestran todos los commits, incluyendo los 2 que fueron hechos en GitHub
+muestran todos los commits, incluyendo los 1 que fueron hechos en GitHub
 y los 2 que se hicieron en forma local con RStudio.
 
 <img src="imagenes/GIT4RStudio/6.22_rstudio-history-3.png" alt="Captura de pantalla con los 4 modificaciones confirmadas." width="100%"/>
