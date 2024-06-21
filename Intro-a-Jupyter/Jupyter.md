@@ -27,7 +27,7 @@ Jupyter es un entorno de trabajo que permite trabajar con diversos lenguajes de 
 ## Contenido
 
 - [Tutorial de Jupyter](jupyter-tutorial.md) 
-- [Instalación de JupyterLab y Conda](instalacion-jlab-conda.md)
+- [Instalación de Conda, Python y JupyterLab](instalacion-jlab-conda.md)
 - [Demostración del cuaderno (*notebook*) Jupyter](cuadernos-jupyter-demo.ipynb)
 
 
