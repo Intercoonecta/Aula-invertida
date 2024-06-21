@@ -28,7 +28,7 @@ Tutorial de Python, en español
 - [Presentación (pdf) sobre Python](Porque_Python.pdf)
 - [Instalación](../Intro-a-Jupyter/instalacion-jlab-conda.md). Instalación de Python utilizando el administrador de paquetes y entornos "conda".
 - Notebooks
-    (Nota: si no sabes cómo usarlos, estudia el material del [apartado de Jupyter]((../Intro-a-Jupyter/Jupyter.md)))
+    (Nota: si no sabes cómo usarlos, estudia el material del [apartado de Jupyter](../Intro-a-Jupyter/Jupyter.md))
   - [Introducción a Python](intro_to_python_ohw2022.ipynb)
   - [Lectura de datos tabulares](read_tabulardata.ipynb)
   - [Introducción a NetCDF](intro_to_netcdf.ipynb)
