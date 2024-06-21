@@ -16,19 +16,19 @@
 
 <img     style="float: left;" src="OHWe.png" width="100"> 
 
-# Instalación de JupyterLab y Conda
+# Instalación de Conda, Python y JupyterLab
 
-Instalaremos la aplicación `JupyterLab` en tu computadora, utilizando el sistema `conda`. 
+Instalaremos en tu computadora la aplicación `JupyterLab` con Python y algunos paquetes útiles, utilizando el sistema `conda`. 
 
-[Conda](https://docs.conda.io) es un administrador de paquetes y entornos para cualquier lenguaje de programación, pero especialmente popular en la comunidad de usuarios de Python. Permite la instalación de diferentes combinaciones y versiones de paquetes de software o librerías y de sus dependencias en diferentes entornos, con la capacidad de cambiar fácilmente de un entorno a otro, donde cada entorno puede estar relacionado a un proyecto específico. Conda da acceso a miles de paquetes, y puede ser instalado en tu computadora sin necesidad de tener privilegios administrativos.
+[Conda](https://docs.conda.io) es un administrador de paquetes y entornos para cualquier lenguaje de programación, pero especialmente popular en la comunidad de usuarios de Python. Permite la instalación de diferentes combinaciones y versiones de paquetes de software o librerías y de sus dependencias en diferentes entornos, con la capacidad de cambiar fácilmente de un entorno a otro, donde cada entorno contiene una configuración aislada de Python y paquetes que uno escoge, con versiones específicas; un entorno puede estar relacionado a un proyecto específico. Conda da acceso a miles de paquetes, y puede ser instalado en tu computadora sin necesidad de tener privilegios administrativos.
 
-Conda funciona tanto en Windows como en macOS y Linux. Conda y los paquetes disponibles a través de conda son generalmente gratuitos y accesibles bajo licencias de código abierto. Hay diferentes maneras de instalar conda. Aquí utilizaremos [Miniconda](https://conda.io/miniconda.html), una distribución ligera de conda. Otra manera popular de instalar conda es a travez de la distribución [Anaconda](https://www.anaconda.com/products/distribution), que pre-instala una gran cantidad de paquetes comunes de Python. Recomendamos Miniconda porque se instala más rápidamente, requiere menos espacio en el disco, y promueve la inclusión selectiva de los paquetes necesarios para proyectos específicos en entornos bien definidos.
+Conda funciona tanto en Windows como en macOS y Linux. Conda y los paquetes disponibles a través de conda son generalmente gratuitos y accesibles bajo licencias de código abierto. Hay diferentes maneras de instalar conda. Aquí utilizaremos [Miniconda](https://conda.io/miniconda.html), una distribución ligera de conda. Otra manera popular de instalar conda es a través de la distribución [Anaconda](https://www.anaconda.com/products/distribution), que pre-instala una gran cantidad de paquetes comunes de Python. Recomendamos Miniconda porque se instala más rápidamente, requiere menos espacio en el disco, y promueve la inclusión selectiva de los paquetes necesarios para proyectos específicos en entornos bien definidos.
 
 En estos tutoriales iniciales no profundizaremos sobre conda más allá de lo necesario. Entraremos en más detalles durante el hackatón. Si quieres aprender más, visita los enlaces al final de esta página.
 
 ## Instalar Miniconda
 
-Incluimos instrucciones breves para instalar Miniconda.
+Incluimos instrucciones breves para instalar Miniconda. Puedes consultar los enlaces en "Referencias y recursos" para obtener ayuda adicional, incluyendo algunos videos en YouTube.
 
 ### Windows
 
@@ -37,14 +37,14 @@ En la página https://docs.conda.io/en/latest/miniconda.html, bajo "Latest Minic
 - Haz doble clic en el archivo instalador después de bajarlo.
 - Selecciona la opción para instalar como usuario local solamente (local user only).
 - Acepta la ruta (*path*) de archivos de instalación de defecto, que probablemente será: `C:\Users\MIPERFIL\miniconda3`
-- En la ventana "Advanced Installation Options", remueve la selección de ambas cajas ("Add Miniconda3 ..." y "Register Miniconda3 ...")
-- En la ventana "Completing Miniconda3", remueve la selección de ambas cajas.
+- En la ventana "Advanced Installation Options", desactiva la selección de ambas cajas ("Add Miniconda3 ..." y "Register Miniconda3 ...")
+- En la ventana "Completing Miniconda3", desactiva la selección de ambas cajas.
 
-Cuando la instalación ha concluído, abre el "Anaconda Powershell Prompt" desde el menú de Start. Puedes comprobar que funciona bien corriendo el comando `conda list`.
+Cuando la instalación ha concluído, abre el "Anaconda Powershell Prompt" o "Anaconda Prompt" desde el menú de `Start`. Puedes comprobar que funciona bien corriendo el comando `conda list`.
 
 ### macOS o Linux
 
-En la **terminal** (*shell*, generalmente la terminal tipo "bash"):
+En la **terminal** (*shell*, generalmente la terminal tipo "bash"), corre estos comandos:
 
 ```bash
 # En macOS
@@ -60,16 +60,27 @@ Si el instalador te pregunta si quieres que inicialize Miniconda3 corriendo `con
 
 ## Crear entorno conda para JupyterLab
 
-Con conda ya instalado, el último paso es crear un entorno de conda que usaremos para correr la aplicación JupyterLab. Además de JupyterLab, este entorno incluirá Python 3.10 y tres paquetes de Python de uso amplio que también son utilizados en el tutorial de Python: `matplotlib`, `pandas` y `netcdf4`.
+Con conda ya instalado, el último paso es crear un entorno de conda que usaremos para correr la aplicación JupyterLab. Además de JupyterLab, este entorno incluirá Python 3.11 y tres paquetes de Python de uso amplio que también son utilizados en el tutorial de Python: `matplotlib`, `pandas` y `netcdf4`.
 
-En la terminal donde instalaste miniconda, corre este comando de `conda create` para crear el entorno con el nombre "jupyterlab": `conda create --yes -n jupyterlab -c conda-forge python=3.10 jupyterlab jupyterlab-language-pack-es-ES nb_conda_kernels matplotlib-base pandas netcdf4`
+En la terminal donde instalaste miniconda, corre este comando de `conda create` para crear el entorno con el nombre "jupyterlab": `conda create --yes -n jupyterlab -c conda-forge python=3.11 jupyter jupyterlab-language-pack-es-ES nb_conda_kernels matplotlib-base pandas netcdf4`
 
-Este entorno contiene un "paquete de idioma" (*language pack*) de español que permitirá cambiar el interfaz de JupyterLab al español.
+Este entorno contiene un "paquete de idioma" (*language pack*) de español que permite cambiar el interfaz de JupyterLab al español.
 
-("conda-forge" es un "canal" de paquetes de conda administrado por una gran comunidad internacional, que actualmente contiene más de 20 mil paquetes de código abierto)
+(["conda-forge"](https://conda-forge.org) es un "canal" de paquetes de conda administrado por una gran comunidad internacional, que actualmente contiene más de 20 mil paquetes de código abierto). Recomendamos usar siempre este canal.
+
+En la terminal el nuevo entorno `jupyterlab` se activa con el comando `conda activate jupyterlab`, y se desactiva con el comando `conda deactivate`.
+
+## Entorno básico de Python
+
+Un entorno minimalista con Python (3.11) y nada más puede ser creado con este comando: `conda create --yes -n python -c conda-forge python=3.11`. Si omites la versión de Python, la versión más reciente será instalada. Si omites el argumento `--yes`, tendrás que dar tu aprobación para completar la instalación.
+
 ## Referencias y recursos
 
 - En [este sitio (CIDE, Centro de Investigación y Docencias Economicas, A.C., México)](https://rafneta.github.io/CienciaDatosPythonCIDE/Laboratorios/Lab1/instalacion.html) puedes encontrar más información sobre el uso de conda. 
+- Aquí ponemos unos videos en YouTube que muestran el proceso de instalación de Miniconda en Windows
+    - [Descargar e instalar miniconda](https://www.youtube.com/watch?v=oE0JFNipLkA).
+    - [Instalación Miniconda Python y Jupyter](https://www.youtube.com/watch?v=E2fKTS8slLo). Este video también muestra un poco sobre el uso de conda
+    - [Descarga e Instalación de Miniconda y Visual Studio Code](https://www.youtube.com/watch?v=sT44XmAuSsE). Ignorar la parte sobre instalación de Visual Studio Code.
 - Para más información sobre el uso de la **terminal** (*shell*) en macOS y Linux, te recomendamos el tutorial [La Terminal de Unix](https://swcarpentry.github.io/shell-novice-es/), de The Carpentries. La terminal PowerShell en Windows se comporta de manera similar.
 - Además de información derivada de los enlaces externos ya presentados, esta página contiene algunos materiales del tutorial [Análisis y visualización de datos usando Python](https://datacarpentry.org/python-ecology-lesson-es/index.html), de [The Carpentries](https://carpentries.org).
 
