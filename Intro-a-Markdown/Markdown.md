@@ -17,7 +17,7 @@
 <img     style="float: left;" src="OHWe.png" width="100"> 
 
 # Breve introducción a Markdown
-**Autor:** Emilio Mayorga, Jorge Cornejo, Marian Peña
+**Autor:** Emilio Mayorga, Jorge Cornejo-Donoso, Marian Peña
 
 
 [Markdown](https://tutorialmarkdown.com/markdown) es un lenguage de marcado en texto plano fácil de aprender. Es como una versión mucho más sencilla de HTML. Markdown permite escribir texto formateado o incluir enlaces, listas, encabezados de secciones, tablas, ecuaciones, imágenes u otro contenido multimedia. En Markdown agregas símbolos de su sintaxis para indicar el tipo de formateo o elementos a incluir. Por ejemplo, rodeando el texto con dos caracteres estrellas lo formatea en negrilla: `**negrilla**` produce **negrilla**. Símbolos numerales al comienzo de una línea convierten la línea en encabezado: `# encabazado de primer nivel`, `## encabazado de segundo nivel`, etc. 
