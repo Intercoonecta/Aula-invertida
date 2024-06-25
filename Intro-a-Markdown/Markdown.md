@@ -82,7 +82,26 @@ A causa de su sintaxis simple y fácil de recordar y aplicar, Markdown es utiliz
 Pare aprender más sobre Markdown, [aquí](https://datosgobar.github.io/portal-andino/markdown-guide/) puedes encontrar una guía breve pero completa. [Este Tutorial Markdown](https://tutorialmarkdown.com/markdown) incluye más explicaciones y ejemplos. Ahí también econtrarás un [editor en línea](https://editormarkdown.com/) donde puedes practicar escribir con códigos Markdown y ver los resultados inmediatamente.
 
 # RMarkdown
-Si trabajas en R puedes utilizar R y Markdown en el mismo fichero. Un archivo de RMarkdown (extensión Rmd) tiene 2 lenguajes incluidos: **R** y **Markdown**.  Las **secciones de código R** están rodeadas de 3 tics y `{r LABEL}`. Estas secciones son evaluadas por R, generando una salida de texto o un gráfico. Para ejecutar las secciones de código R  se deben enviar a la consola. ¿Cómo se hace eso?
+Si trabajas en R puedes utilizar R y Markdown en el mismo fichero. Un archivo de RMarkdown (extensión Rmd) tiene 2 lenguajes incluidos: **R** y **Markdown**.  
+Para abrir un nuevo documento de RMarkdown siga los siguiente pasos:
+
+File -> New File -> RMarkdown... -> Document of output format HTML, OK. Nota: si quieres obtener un fichero .md para usar en github cambia el output format a github_document. Hay más opciones de salida como  word_document, pdf_document etc
+
+
+```{r RStudioNew, echo=FALSE, out.width = '75%', fig.align = 'center', fig.cap = 'Captura de pantalla de la interfase para la creación de un proyecto nuevo de RStudio.'}
+knitr::include_graphics("images/5.1_rstudio_new-rmd-doc-html.png")
+```
+
+Le puede dar un título como "Mi Proyecto". Luego clic en OK. 
+
+Las **secciones de código R** están rodeadas de 3 tics y `{r LABEL}`. Estas secciones son evaluadas por R, generando una salida de texto o un gráfico. 
+
+```{r rmarkdown, echo=FALSE, out.width = '100%', fig.align = 'center', fig.cap = 'Imagen con el código fuente de un archivo RMarkdown.'}
+knitr::include_graphics("images/5.2_rmarkdown.png")
+```
+
+
+Para ejecutar las secciones de código R  se deben enviar a la consola. ¿Cómo se hace eso?
 
 Hay varias formas de hacerlo: 
 
