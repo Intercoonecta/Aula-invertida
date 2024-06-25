@@ -22,7 +22,7 @@
 Tutorial de iniciación a Jupyter, en español
 
 
-Jupyter es un entorno de trabajo que permite trabajar con diversos lenguajes de programación, incluyendo Python y R, a través de "cuadernos" computacionales (*notebooks*) donde el código y los resultados se visualizan en un navegador de internet. Se trabaja con cuadernos en Jupyter ya sea offline, como otra aplicación en la computadora sin necesidad de conección al internet, o por medio de internet y un sistema remoto en línea.
+Jupyter es un entorno de trabajo que permite trabajar con diversos lenguajes de programación, incluyendo Python y R, a través de "cuadernos" computacionales (*notebooks*) donde el código y los resultados se visualizan en un navegador de internet. Se trabaja con cuadernos en Jupyter ya sea offline, como otra aplicación en la computadora sin necesidad de conexión a internet, o por medio de internet y un sistema remoto en línea.
 
 ## Contenido
 
