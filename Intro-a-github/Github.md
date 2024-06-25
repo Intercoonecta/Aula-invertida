@@ -29,7 +29,7 @@ También te recomendamos crear una cuenta gratuita en GitHub, https://github.com
 
 Este tutorial utiliza comandos en una **terminal** (shell), especialmente la terminal *bash*. Consulta [este tutorial](https://swcarpentry.github.io/shell-novice-es/) para mayor información sobre el uso de la terminal.
 
-Si trabajas en R, échale un vistazo a la lección de [Trabajando localmente con Git y GitHub](09_control_de_version-git.md) 
+Si trabajas en R, échale un vistazo a la lección de [Trabajando localmente con Git y GitHub](../Intro-a-R/09_control_de_version-git.md) 
 
 ## Lecciones
 
