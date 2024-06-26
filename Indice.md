@@ -24,7 +24,7 @@
 **Autores**:
 Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierro Arcos, Emilio Mayorga, Jorge Cornejo-Donoso
 
-Tutoriales de iniciación en lenguajes de programación open source R y Python, lenguaje Markdown y su versión para R (RMarkdown), el entorno de trabajo Jupyter y el trabajo colaborativo con control de cambios con git/github.
+Tutoriales de iniciación en lenguajes de programación open source R y Python y el trabajo colaborativo con control de cambios con git/github. Incluye asímismo una breve introducción al lenguaje Markdown y su versión para R (RMarkdown) y al entorno de trabajo Jupyter. 
 
 
 ## Contenido
