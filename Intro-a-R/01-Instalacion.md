@@ -21,7 +21,7 @@
 
 La versión más reciente de R puede obtenerse del sitio web oficial: [The R Project for Statistical Computing](http://www.r-project.org/), el cual contiene las ligas hacia diferentes servidores "espejo" distribuidos en todo el mundo. En estos servidores se puede descargar el código fuente de R o una versión precompilada para la plataforma de nuestro interés (Linux, macOS, Windows). En esta guía comentaremos la instalación y el uso de R en las versiones más recientes de  Windows.
 
-Una vez descargado el archivo de instalación (`R-4.2.2-win.exe`), basta ejecutarlo haciendo doble click en él. Durante la instalación se irán desplegando una serie de ventanas, en la mayoría de las cuales seleccionaremos las opciones por defecto: 
+Una vez descargado el archivo de instalación (`R-4.4.1-win.exe`), basta ejecutarlo haciendo doble click en él. Durante la instalación se irán desplegando una serie de ventanas, en la mayoría de las cuales seleccionaremos las opciones por defecto: 
 
 * **Select setup language**: Se recomienda seleccionar "**English**". La razón de esto es que aunque el menú de R y algunos mensajes están traducidos en varios idiomas (entre ellos el español) el sistema de ayuda y muchos recursos en Internet solo están disponibles en inglés, por lo que una búsqueda en este idioma producirá más resultados que en español o cualquier otro idioma.
 
@@ -29,7 +29,7 @@ Una vez descargado el archivo de instalación (`R-4.2.2-win.exe`), basta ejecuta
 
 * **Select Destination Location**: Se recomienda instalar en el directorio por defecto.
 
-![](imagenes/cdf3c335d5b3e0235da06be727746d85.png "XX")
+![](imagenes/setup_R.png "XX")
 
 * **Select Components**: "**Next**" para continuar.
 
@@ -42,7 +42,7 @@ Una vez descargado el archivo de instalación (`R-4.2.2-win.exe`), basta ejecuta
 
 * **Select Additional Tasks**: "**Next**" para continuar
 
-* **Completing the R for  Windows 4.2.2 Setup Wizard**: "**Finish**" para terminar
+* **Completing the R for  Windows 4.4.1 Setup Wizard**: "**Finish**" para terminar
 
 # Instalar Rstudio 
 Una manera de facilitar la creación y manipulación de scripts en R es por medio de un editor que resalte la sintaxis con diferentes colores, y al mismo tiempo que pueda interactuar con R enviando código a la consola para su ejecución. Existen diferentes opciones, sin embargo dada la facilidad de instalación, de uso y sus características, se recomienda el uso de [RStudio](https://posit.co/download/rstudio-desktop/). 
@@ -68,7 +68,7 @@ La instalación es bastante simple, se puede hacer a partir de RStudio, desde la
 ## Desde RStudio
 Esta es la opción más simple. Basta ir a la pestaña **Packages** y pulsar el boton **Install**. En la ventana emergente solamente se requiere escribir el nombre del paquete deseado (o nombres, separados por una coma) y pulsar el botón **Install**. Por defecto, RStudio buscará el o los paquetes en el repositorio de R (Comprehensive R Archive Network, [CRAN](https://cran.r-project.org/mirrors.html)). 
 
-![](imagenes/InstallPackges.png)
+![](imagenes/InstallPackages.png)
 
 ## Desde la consola
 En ocasiones el procedimiento anterior falla, típicamente porque se trata de instalar un paquete que esta cargado en la memoria de R. En esos casos es importante saber como utilizar la consola sin RStudio. Para ello se debe localizar el programa "Rgui.exe", que tiene su propio menú. Desde dicho menú seleccionamos la opción: **Packages/Install package(s)...** Después será necesario elegir un servidor o "espejo" y a continuación el paquete de nuestro interés en la lista desplegada. 
