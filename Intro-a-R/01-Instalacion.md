@@ -111,7 +111,8 @@ Cuando ya no necesitamos el paquete podemos desactivarlo usando el comando:
 ```
 Las líneas de código previas representan nuestra primera interacción con R. Esto lo hacemos escribiéndolas en el área de RStudio conocida como source (normalmente arriba del lado izquierdo) y sucesivamente pulsando el botón **Run** o las teclas `Ctrl+Enter`
 
-![](imagenes/RStudio.png)
+
+![](imagenes/Rstudio.png)
 
 Nótese como el símbolo `>` de las instrucciones que se ilustran no se debe teclear, pues representa el `prompt` o solicitud de entrada de instrucciones de R, como se aprecia en la Consola al lado derecho en la imagen.
 
