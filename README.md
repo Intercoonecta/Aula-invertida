@@ -14,4 +14,4 @@
 <img     style="float: left;" src="instituciones.png" width="500" height="150"> 
 
 <img     style="float: right;" src="EMB GUATEMALA + AECID + CF LA ANTIGUA-01.png" width="600" height="100">
-<a href="https://info.flagcounter.com/C8sm"><img src="https://s11.flagcounter.com/countxl/C8sm/bg_FFFFFF/txt_000000/border_CCCCCC/columns_5/maxflags_110/viewers_0/labels_1/pageviews_1/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
+<a href="http://s11.flagcounter.com/more/rqN"><img src="https://s11.flagcounter.com/count2/rqN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_30/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
