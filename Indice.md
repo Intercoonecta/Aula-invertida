@@ -33,3 +33,6 @@ Tutoriales de iniciación en lenguajes de programación open source R y Python y
 - [Introducción a Jupyter](Intro-a-Jupyter/Jupyter.md)
 - [Introducción a Markdown](Intro-a-Markdown/Markdown.md)
 - [Introducción a github](Intro-a-github/Github.md)
+
+
+<a href="http://s11.flagcounter.com/more/rqN"><img src="https://s11.flagcounter.com/count2/rqN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_30/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
