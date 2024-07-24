@@ -76,8 +76,8 @@ local de repositorio.
 
 </p>
 
-En la figura @ref(fig:githubCloneLocal) puede ver que apareció un
-archivo llamado `sasap-test.Rproj` y que están los otros 3 archivos que
+En la figura anterior puede ver que apareció un
+archivo llamado `aula-ejemplo.Rproj` y que están los otros 3 archivos que
 se crearon con el repositorio remoto de GitHub (`.gitignore`, `LICENSE`
 y `README.md`).
 
