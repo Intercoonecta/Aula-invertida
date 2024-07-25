@@ -27,12 +27,16 @@ Marian Peña, Héctor Villalobos, Alma Carolina Castillo Trujillo, Denisse Fierr
 Tutoriales de iniciación en lenguajes de programación open source R y Python y el trabajo colaborativo con control de cambios con git/github. Incluye asímismo una breve introducción al lenguaje Markdown y su versión para R (RMarkdown) y al entorno de trabajo Jupyter. 
 
 
-## Contenido
+## Indice
 - [Introducción a R](Intro-a-R/R.md)
 - [Introducción a Python](Intro-a-Python/Python.md)
 - [Introducción a Jupyter](Intro-a-Jupyter/Jupyter.md)
 - [Introducción a Markdown](Intro-a-Markdown/Markdown.md)
 - [Introducción a github](Intro-a-github/Github.md)
 
+## Sesiones síncronas
+- [Introducción a Jupyter y github (19/07/2024)](https://www.youtube.com/watch?v=sLoNV053wKQ)
+- [Introducción a R y git desde R (24/07/2024)](https://www.youtube.com/watch?v=PKkhNZPdsfk)
+- [Introducción a Python](26/07/2024)
 
 <a href="http://s11.flagcounter.com/more/rqN"><img src="https://s11.flagcounter.com/count2/rqN/bg_FFFFFF/txt_000000/border_CCCCCC/columns_6/maxflags_30/viewers_0/labels_0/pageviews_0/flags_0/percent_0/" alt="Flag Counter" border="0"></a>
