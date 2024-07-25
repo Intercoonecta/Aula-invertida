@@ -41,14 +41,19 @@ Si trabajas en R, échale un vistazo a la lección de [Trabajando localmente con
 6. [Ignorando archivos](06-ignorar.md) - Selección de  archivos a ignorar durante el rastreo de Git. 
 7. [Repositorios remotos en GitHub](07-github-remote.md) - Compartiendo cambios con otros en la web. 
 
+Este diagrama resume los elementos y comandos principales de git, incluyendo la sincronización con repositorios remotos (*tomado del [Tutorial sobre Git, github y los VCS (autor: RedxLus)](https://luisiblogdeinformatica.com/git-github-y-vcs/))*
+
+<img style="float: left;" src="https://luisiblogdeinformatica.com/wp-content/uploads/2019/08/git-diagrama-repositorios-tutorial-800x450.png" width="500" alt="Tutorial sobre Git, github y los VCS (autor: RedxLus), https://luisiblogdeinformatica.com/git-github-y-vcs/">
 
 ## Vídeo
+
 - [Taller de control de versiones con Git por Denisse Fierro y Linda Cabrera](https://youtu.be/zhDGiDqLQxo). El vídeo dura 3 horas pero basta con visualizar la primera mitad, la cual corresponde a las lecciones listadas en este tutorial.
 
 ## Enlaces 
-- [Curso de carpentry (en español), "El Control de Versiones con Git"](https://swcarpentry.github.io/git-novice-es/)
-- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git) 
 
+- [Curso de carpentry (en español), "El Control de Versiones con Git"](https://swcarpentry.github.io/git-novice-es/)
+- [Tutorial sobre Git, github y los VCS, por RedxLus (en español)](https://luisiblogdeinformatica.com/git-github-y-vcs/)
+- [Instalación y uso de Git (en inglés)](https://oceanhackweek.github.io/resources/prep/git) 
 
 ## Fuente
 
