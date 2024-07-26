@@ -1,24 +1,112 @@
-<p align="left">
-<strong><a href="../Indice.md">Indice</a></strong>
-|
-<strong><a href="../Intro-a-R/R.md">R</a></strong>
-|
-<strong><a href="../Intro-a-Python/Python.md">Python</a></strong>
-|
-<strong><a href="../Intro-a-Jupyter/Jupyter.md">Jupyter</a></strong>
-|
-<strong><a href="../Intro-a-Markdown/Markdown.md">Markdown</a></strong>
-|
-<strong><a href="../Intro-a-github/Github.md">Git y GitHub</a></strong>
-|
-<strong><a href="../enlaces.md">Enlaces</a></strong>
+---
+editor_options: 
+  markdown: 
+    wrap: 72
+---
+
+# Control de versiones con git y GitHub
+
+## Cree un repositorio remoto en GitHub
+
+Empecemos creando un repositorio en GitHub, luego editaremos algunos
+archivos.
+
+-   Ingrese al sitio [GitHub](https://github.com).
+-   Clic en el botón de repositorio nuevo (New repository).
+-   Nómbrelo como `sasap-test`.
+-   Cree un archivo README.md.
+-   Defina la licencia a Apache 2.0.
+
+<img src="imagenes/GIT4RStudio/6.8_new-repo-github.png" alt="Captura de pantalla de la creación de un repositorio nuevo en GitHub." width="100%"/>
+
+<p class="caption">
+
+Captura de pantalla de la creación de un repositorio nuevo en GitHub.
+
 </p>
 
-<img     style="float: left;" src="OHWe.png" width="100"> 
+¡Usted acaba de crear su primer repositorio! Este repositorio fue creado
+con un par de archivos que GitHub hace por usted, son los archivos
+README.md, LICENSE y .gitignore.
 
-# Trabajando localmente con Git y GitHub en RStudio
-**Autor:** Jorge Cornejo-Donoso
+<img src="imagenes/GIT4RStudio/6.9_sasap-test-repo.png" alt="Captura de pantalla con el repositorio recién creado llamado sasap-test." width="100%"/>
 
+<p class="caption">
+
+Captura de pantalla con el repositorio recién creado llamado sasap-test.
+
+</p>
+
+Para hacer cambios menores a archivos de texto se puede utilizar la
+interfase web de GitHub. Navegue al archivo `README.md` en el listado de
+archivos y habilite la edición haciendo clic en el icono del *lápiz*.
+Este es un archivo normal con el formado Markdown, ahora se puede
+editar, agregando o removiendo texto. Cuando haya terminado, incluya un
+mensaje de commit y luego haga clic en el botón `Commit changes`.
+
+<img src="imagenes/GIT4RStudio/6.10_sasap-test-edit.png" alt="Captura de pantalla con la interfase web de GitHub para la edición de documentos de texto." width="100%"/>
+
+<p class="caption">
+
+Captura de pantalla con la interfase web de GitHub para la edición de
+documentos de texto.
+
+</p>
+
+<img src="imagenes/GIT4RStudio/6.11_sasap-test-commit.png" alt="Captura de pantalla con la interfase web de GitHub para la confirmar de los cambios realizados al documento de texto (commit changes)." width="100%"/>
+
+<p class="caption">
+
+Captura de pantalla con la interfase web de GitHub para la confirmar de
+los cambios realizados al documento de texto (commit changes).
+
+</p>
+
+Felicitaciones, ahora usted acaba de confirmar (commit) los cambios,
+ahora es el autor de la primera versión de este archivo. Si navega de
+regreso a la página del repositorio GitHub, puede ver la lista de los
+cambios confirmados (commits) ahí, así como la visualización del
+documento generado a partir del archivo README.md.
+
+![Captura de pantalla con la interfase web los cambios corfimados
+(commits) y de la visualización de la página
+README.md.](imagenes/GIT4RStudio/6.12_sasap-test-displayed.png){alt="Captura de pantalla con la interfase web los cambios corfimados (commits) y de la visualización de la página README.md."
+width="100%"}
+
+<p class="caption">
+
+Captura de pantalla con la interfase web los cambios corfimados
+(commits) y de la visualización de la página README.md.
+
+</p>
+
+Expliquemos algunas cosas sobre esta ventana. Representa una vista del
+repositorio que acaba de crear, hasta ahora mostrando todos sus
+archivos. Para cada archivo, muestra la fecha de la última modificación
+y el mensaje asociado al *commit* que se utilizó para describir los
+cambios realizados. Esta es la razón por qué es tan importante escribir
+buenos mensajes, que contengan información relevante cuando se hace el
+*commit*. Además, el título azul sobre el listado de archivos muestra el
+*commit* más reciente, con su mensaje asociado y su identificados SHA.
+Ese identificador SHA es la clave para el set de versiones. Si hace clic
+en el identificador SHA (*810f314*), va a mostrar los cambios que se
+hicieron en ese *commit* en particular.
+
+En la siguiente sección vamos a usar el URL de GitHub del repositorio
+que acaba de crear y lo usaremos plara clonarlo (`clone`) a un
+repositorio en nuestra máquina local y así editar los archivos con
+**RStudio**. Para eso, primero tenemos que copiar el URL de GitHub, que
+representa la dirección del repositorio:
+
+<img src="imagenes/GIT4RStudio/6.13_sasap-test-clone-url.png" alt="Captura de pantalla para clonar un repositorio GitHub." width="100%"/>
+
+<p class="caption">
+
+Captura de pantalla para clonar un repositorio GitHub.
+
+</p>
+
+## Trabajando localmente con Git en RStudio
 
 RStudio incluye soporte para Git como sistema de control de versiones,
 pero esto **sólo** ocurre si estamos trabajando en un *Proyecto de
@@ -37,9 +125,7 @@ Esto es lo que vamos a hacer:
 7.  Enviar (*Push*) estos cambios a GitHub.
 8.  Ver el historial de cambios en GitHub.
 
-Consulte el tutorial [Introducción a Git y GitHub](../Intro-a-github/Github.md) para acceder a una presentación más amplia a estas herramientas.
-
-## Crear nuevo Proyecto (Create a New Project)
+### Crear nuevo Proyecto (Create a New Project)
 
 Comience creando un *New Project…* en RStudio, seleccione la opción
 *Version Control* y pegue el URL de GitHub que copió en el espacio para
@@ -76,8 +162,8 @@ local de repositorio.
 
 </p>
 
-En la figura anterior puede ver que apareció un
-archivo llamado `aula-ejemplo.Rproj` y que están los otros 3 archivos que
+En la figura @ref(fig:githubCloneLocal) puede ver que apareció un
+archivo llamado `sasap-test.Rproj` y que están los otros 3 archivos que
 se crearon con el repositorio remoto de GitHub (`.gitignore`, `LICENSE`
 y `README.md`).
 
@@ -92,7 +178,7 @@ usted vaya tomando decisiones sobre el control de versiones en RStudio,
 estos iconos van a ir cambiando para reflejar el estatus de la versión
 actual de cada uno de los archivos.
 
-## Inspeccionar el historial (history)
+### Inspeccionar el historial (history)
 
 A continuación vamos a hacer clic en el botón *History* (historial, es
 el reloj que aparece en la primera fila al interior del panel ed Git),
@@ -110,7 +196,7 @@ Historial de los cambios realizados en el repositorio local.
 
 </p>
 
-## Confirme cambios haciendo clic en *commit* al archivo README.md (Commit a README.md change)
+### Confirme cambios haciendo clic en *commit* al archivo README.md (Commit a README.md change)
 
 Ahora hagamos algunos cambios al archivo README.md en RStudio. Agregue
 una sección nueva con un block de *markdown* como este:
@@ -158,7 +244,7 @@ repositorio y los últimos cambios realizados.
 
 </p>
 
-## Commit los cambios hechos en Rstudio
+### Commit los cambios hechos en Rstudio
 
 Para confirmar los cambios que se acaban de hacer en el archivo
 README.md, selecciones la caja de selección *Staged* a lado del nombre
@@ -177,7 +263,7 @@ que se realizará.
 </p>
 
 Note que algunos de los cambios en el repositorio, `.gitignore` y
-`sasap-test.Rproj`, aun no se han confirmado y no serán parte del
+`aula-ejemplo.Rproj`, aun no se han confirmado y no serán parte del
 *commit*. En otras palabras, aun existen cambios pendientes para ser
 registrados en el repositorio. Usted vará una notificación que indica
 (en inglés):
@@ -192,7 +278,7 @@ pero que este no se está en el repositorio de origen (`origin`), no se
 ha hecho push, donde origen es el nombre que se usa típicamente para el
 repositorio en GitHub. Entonces, confirmemos los cambios pendientes,
 para esto seleccione la caja *staged* y luego escriba el mensaje
-describiendo el commit (fig. @ref(fig:rstudioCommit2)).
+describiendo el commit (fig. @ref(fig:rstudioCommit2)).
 
 <img src="imagenes/GIT4RStudio/6.20_rstudio-commit-2.png" alt="Captura de pantalla con los archivos a confirmar sus cambios y el texto descriptivo de la confirmación." width="100%"/>
 
@@ -206,7 +292,7 @@ descriptivo de la confirmación.
 Cuando haya terminado no habrán mas cambios pendientes en el panel *Git*
 y el repositorio estará completamente limpio.
 
-## Inspeccionando el historial
+### Inspeccionando el historial
 
 Fíjese que ahora el mensaje dice:
 
@@ -217,7 +303,7 @@ confirmación</code>
 
 Estas 2 confirmaciones son las dos que acabamos de hacer y no se han
 empujado (push) aun a GitHub. Haciendo clic en el botón *History*
-(historial), podemos ver que hay un total de 4 commit en el repositorio
+(historial), podemos ver que hay un total de 3 commit en el repositorio
 local, mientras hay sólo 2 en GitHub (fig. @ref(fig:rstudioCommit3)).
 
 <img src="imagenes/GIT4RStudio/6.21_rstudio-history-2.png" alt="Captura de pantalla con 4 commits." width="100%"/>
@@ -228,7 +314,7 @@ Captura de pantalla con 4 commits.
 
 </p>
 
-## Enviar (Push) cambios a GitHub
+### Enviar (Push) cambios a GitHub
 
 Ahora que se han hecho todos los cambios deseados en el repositorio
 local, usted puede empujar (*push*) los cambios a GitHub usando el botón
@@ -236,7 +322,7 @@ local, usted puede empujar (*push*) los cambios a GitHub usando el botón
 password de GitHub, luego los cambios serán enviados. Esto dejará su
 repositorio local en un estado totalmente limpio y sincronizado con el
 repositorio remoto. Terminado esto, en el historial (en GitHub) se
-muestran todos los commits, incluyendo los 2 que fueron hechos en GitHub
+muestran todos los commits, incluyendo los 1 que fueron hechos en GitHub
 y los 2 que se hicieron en forma local con RStudio.
 
 <img src="imagenes/GIT4RStudio/6.22_rstudio-history-3.png" alt="Captura de pantalla con los 4 modificaciones confirmadas." width="100%"/>
@@ -321,3 +407,31 @@ desarrolle una estructura básica y guárdela.
 
 A continuación *stage* y *commit* el archivo en forma local y luego
 *push it* a GitHub.
+
+## Tópicos avanzados
+
+Hay mucho que no hemos visto en este tutorial. Existen tutoriales muy
+completos que cubren tópicos mas avanzados. Algunos de estos temas son:
+
+-   Usando git en la linea de comándos.
+
+-   Resolviendo conflictos.
+
+-   *Branching* y *merging*.
+
+-   *Pull requests* versus contribuciones directas por colaboradores.
+
+-   Usando *.gitignore* para proteger datos sensitivos.
+
+-   *GitHub Issues* y por que son útiles.
+
+-   y más, mucho más.
+
+-   [Try Git](https://try.github.io) es un tutorial interactivo muy
+    bueno y completo.
+
+-   Software Carpentry [Version Control with
+    Git](http://swcarpentry.github.io/git-novice/)
+
+-   Codecademy [Learn Git](https://www.codecademy.com/learn/learn-git)
+    (some paid)
