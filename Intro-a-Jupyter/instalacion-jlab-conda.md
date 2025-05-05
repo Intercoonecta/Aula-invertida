@@ -60,7 +60,9 @@ bash miniconda.sh -b -p $HOME/miniconda3
 
 Si el instalador te pregunta si quieres que inicialize Miniconda3 corriendo `conda init` ("Do you wish the installer to initialize Miniconda3 by running conda init?"), selecciona "yes". Si concluye sin hacer esa pregunta, ejecuta el siguiente comando: `./miniconda3/bin/conda init`. Por último, ejecuta el comando `conda update conda --yes`
 
-## Crear entorno de conda para JupyterLab
+## Entornos con conda
+
+### Crear entorno de conda para JupyterLab
 
 Con conda ya instalado, el último paso es crear un entorno de conda que usaremos para correr la aplicación `JupyterLab`. Además de `JupyterLab`, este entorno incluirá **Python 3.12** y tres paquetes de Python de uso amplio que también son utilizados en el tutorial de Python: `matplotlib`, `pandas` y `netcdf4`.
 
@@ -73,16 +75,22 @@ conda create --yes -n jupyterlab -c conda-forge python=3.12 jupyter jupyterlab-l
 
 En la terminal, el nuevo entorno `jupyterlab` se activa con el comando `conda activate jupyterlab`, y se desactiva con el comando `conda deactivate`.
 
-## Entorno básico de Python
+### Entorno básico de Python
 
 Un entorno minimalista con Python (3.12) y nada más puede ser creado con este comando: `conda create --yes -n python -c conda-forge python=3.12`. Si omites la versión de Python, la versión más reciente será instalada. Si omites el argumento `--yes`, tendrás que dar tu aprobación para completar la instalación.
 
-## Añadir más paquetes a un entorno
+### Añadir más paquetes a un entorno
 
 Podemos añadir paquetes adicionales a un entorno utilizando `conda install` luego de activar el entorno, manteniendo la referencia a `conda-forge`. Por ejemplo:
 ```bash
 conda install -c conda-forge seaborn
 ```
+
+## Alternativas a conda
+
+`conda` es muy popular en ámbitos científicos y de ciencia de datos, ya que aborda muy bien el tipo de necesidades y desafíos comunes en estas áreas. En el uso de Python más general, el ecosistema de herramientas para la instalación de paquetes y gestión de entornos es más complejo.
+
+Para la instalación y gestión de paquetes, la herramienta más universal es [**pip**](https://es.wikipedia.org/wiki/Pip_(administrador_de_paquetes)) (ver también [este excelente artículo](https://www.programaenpython.com/avanzado/gestion-de-dependencias-en-python-con-pip/)). Actualmente, la herramienta [**uv**](https://www.mostapha.dev/blog/uv-gestor-paquetes-python-2025) está cobrando auge, ya que es mucho más rápida y cubre más capacidades, incluyendo la gestión de entornos.
 
 ## Referencias y recursos
 
