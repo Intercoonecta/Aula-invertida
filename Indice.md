@@ -34,7 +34,7 @@ Tutoriales de iniciación en lenguajes de programación open source R y Python y
 - [Introducción a Markdown](Intro-a-Markdown/Markdown.md)
 - [Introducción a Git y GitHub](Intro-a-github/Github.md)
 
-## Sesiones síncronas
+## Sesiones síncronas en el 2024
 - [Introducción a Jupyter y github (19/07/2024)](https://www.youtube.com/watch?v=sLoNV053wKQ)
 - [Introducción a R y git desde R (24/07/2024)](https://www.youtube.com/watch?v=PKkhNZPdsfk)
 - [Introducción a Python (26/07/2024)](https://www.youtube.com/watch?v=qvpxwRmAAbQ)
