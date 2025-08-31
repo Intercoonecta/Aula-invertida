@@ -41,7 +41,7 @@ Tutoriales de iniciación en lenguajes de programación open source R y Python y
 
 ## Sesiones síncronas en el 2025
 - [Bienvenida y presentación actividades
-- Instalación de conda y paquetes de Python (5/05/2025)](https://www.youtube.com/watch?v=gMHIRtLui2Y&t=4253s)
+- [Instalación de conda y paquetes de Python (5/05/2025)](https://www.youtube.com/watch?v=gMHIRtLui2Y&t=4253s)
 - [GIT, Jupyter y Python (7/05/2025)](https://youtu.be/CKTHnIuWXC4?si=BzuFBbIcnOHF6Hwv)
 - [R y Rstudio (9/05/2025](https://www.youtube.com/watch?v=op9cUUmC1TQ)
   
